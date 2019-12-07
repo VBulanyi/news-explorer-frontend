@@ -2,69 +2,117 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Webpack</title>
-    <link rel="stylesheet" href="../style.c7cdfffafea6af54cfde.css?aa005ae5a1f1f494b8fd">
+    <meta name="author" content="Vladimir Bulanyi">
+    <meta name="description" content="Diploma project">
+    <title>News Explorer</title>
+    <link rel="stylesheet" href="../index.95d80cd1cb67d01d07de.css?d7c410a9e66739131630">
 </head>
 <body>
-  <div class="page">
-    <header  class="header">
-      <div class="header__columns">
-        <div class="header__logo">
+    <div class="page">
+      <header class="header header_white">
+        <nav class="menu">
+          <a class="menu__logo menu__logo_black" href="../">NewsExplorer</a>
+          <ul class="menu__column-links">
+            <li class="menu__item"><a class="menu__column-link menu__colunm-link_black" href="../">Главная</a></li>
+            <li class="menu__item"><a class="menu__column-link menu__colunm-link_black" href="../about/">О проекте</a></li>
+            <li class="menu__item menu__item_active"><a class="menu__column-link menu__colunm-link_grey" href="./">Сохранённые
+              статьи</a></li>
+            <li class="menu__item"><a class="menu__column-link menu__colunm-link_black menu__link-auth menu__link-auth_black" href="">Грета [-></a></li>
+          </ul>
+        </nav>
+        <div class="header__wrapper header__wrapper_about">
+          <span class="header__about">Сохранённые статьи</span>
+          <h2 class="header__title header__title_black header__title_about">Грета, у вас 5 сохранённых статей</h2>
+          <p class="header__description header__description_black">По ключевым словам: <span
+              class="header__description_bold">Природа, Тайг</span> и <span class="header__description_bold">2
+              другим</span></p>
         </div>
-        <div class="header__column-links">
-          <a class="header__column-link" href="../">Главная</a>
-          <a class="header__column-link" href="../about/">О проекте</a>
-          <a class="header__column-link" href="../news/">Сохранённые статьи</a>
-          <a class="header__column-link" href="">Авторизоваться</a>
-        </div>
-    </div>
+
     </header>
 
     <main class="content">
-      <section class="results">
-        <p class="results__about">Сохранённые статьи</p>
-        <h2 class="results__title title">Грета, у вас 5 сохранённых статей</h2>
-        <p class="results__description description">По ключевым словам: Природа, Тайга и 2 другим</p>
-      </section>
-      <section class="results">
-        <div class="results__container_main">
-          <h2 class="results__title">Результаты поиска</h2>
-          <div class="results__container">
-            <div class="results-card">
-              <div class="results-card__image">
-                <div class="results-card__label"></div>
+      <section class="results results_about">
+        <div class="results__main-container">
+          <div class="results__continer">
+            <div class="card">
+              <div class="card__image">
+                <div class="card__backgronud"><span
+                    class="card__bookmark-notification card__bookmark-notification_about">Природа</span></div>
+                <div class="card__bookmark card__bookmark_trash"></div>
+
+                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Убрать из
+                  сохранённых</span>
               </div>
-              <div class="results-card__content">
-                <span class=" results-card__date"></span>
-                <h3 class="results-card__title"></h3>
-                <p class="results-card__text"></p>
-                <span class="results-card__source"></span>
+              <div class="card__content">
+                <span class="card__date">2 августа, 2019</span>
+                <h3 class="card__title">Национальное достояние – парки</h3>
+                <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
+                  складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
+                  приобщиться к природе.</p>
+                <span class="card__source">ЛЕНТА.РУ</span>
               </div>
             </div>
-            <div class="results-card"></div>
-            <div class="results-card"></div>
+            <div class="card">
+              <div class="card__image">
+                <div class="card__backgronud"><span
+                    class="card__bookmark-notification card__bookmark-notification_about">Природа</span></div>
+                <div class="card__bookmark card__bookmark_trash"></div>
+
+                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Убрать из
+                  сохранённых</span>
+              </div>
+              <div class="card__content">
+                <span class="card__date">2 августа, 2019</span>
+                <h3 class="card__title">Национальное достояние – парки</h3>
+                <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
+                  складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
+                  приобщиться к природе.</p>
+                <span class="card__source">ЛЕНТА.РУ</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <div class="card__backgronud"><span
+                    class="card__bookmark-notification card__bookmark-notification_about">Природа</span></div>
+                <div class="card__bookmark card__bookmark_trash"></div>
+
+                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Убрать из
+                  сохранённых</span>
+              </div>
+              <div class="card__content">
+                <span class="card__date">2 августа, 2019</span>
+                <h3 class="card__title">Национальное достояние – парки</h3>
+                <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
+                  складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
+                  приобщиться к природе.</p>
+                <span class="card__source">ЛЕНТА.РУ</span>
+              </div>
+            </div>
           </div>
         </div>
-
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column copyright">
-          <div class="footer__author">&copy;   2019. Владимир Буланый</div>
-        </div>
-        <div class="footer__column-links">
-            <a class="footer__column-link" href="#">Главная</a>
-            <a class="footer__column-link" href="#">О проектк</a>
-            <a class="footer__column-link" href="#">Яндекс.Практикум</a>
-        </div>
-        <div class="footer__column social">
-            <a class="footer__social-link" href="#"><img class="footer__social-links-logo" src="./imagefacebook_white.svg" alt="facebook logo"></a>
-            <a class="footer__social-link" href="#"><img class="footer__social-links-logo" src="./imagegithub.svg" alt="github logo"></a>
-          </div>
+      <p class="footer__copyright footer__copyright_grey">&copy; 2019. Владимир Буланый</p>
+      <nav>
+        <ul class="footer__menu">
+          <li class="footer__menu-link"><a href="./">Главная</a></li>
+          <li class="footer__menu-link"><a href="./about">О проектке</a></li>
+          <li class="footer__menu-link"><a href="https://praktikum.yandex.ru">Яндекс.Практикум</a></li>
+        </ul>
+      </nav>
+      <div class="footer__social">
+
+
+
+
+
+        <a class="footer__social-link" href="https://github.com/VBulanyi/"></a>
+        <a class="footer__social-link" href="#"></a>
       </div>
     </footer>
+    </div>
+    <script src="../news/news.d7c410a9e66739131630.js?d7c410a9e66739131630"></script>
   </div>
-    <script src="../main.aa005ae5a1f1f494b8fd.js?aa005ae5a1f1f494b8fd"></script>
-</body>
+  </body>
 </html>
