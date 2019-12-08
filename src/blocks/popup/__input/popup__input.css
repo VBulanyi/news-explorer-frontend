@@ -1,3 +1,5 @@
+@import url(./__input-name-err/popup__input-name-err.css);
+
 .popup__input {
   width: 100%;
   height: 47px;
@@ -6,7 +8,7 @@
   font-size: 0.875rem;
   line-height: 17px;
   box-sizing: border-box;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
   color: #000;
 }
 

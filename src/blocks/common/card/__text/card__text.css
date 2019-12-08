@@ -3,3 +3,16 @@ color: #1A1B22;
 font-size: 1rem;
 line-height: 137%
 }
+
+@media screen and (max-width: 1023px) {
+  .card__text {
+    font-size: 1rem;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__text  {
+
+    }
+  }

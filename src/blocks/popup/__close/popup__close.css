@@ -5,3 +5,9 @@
   right: -26px;
   cursor: pointer;
 }
+
+
+
+.popup__close:checked ~ .popup__content {
+display: none;
+}

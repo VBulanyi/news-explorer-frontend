@@ -1,9 +1,10 @@
-import '../../vendor/normalize.css'
-import '../../../node_modules/swiper/css/swiper.min.css'
-import './index.css'
+import '../../vendor/normalize.css';
+import '../../../node_modules/swiper/css/swiper.min.css';
+import './index.css';
 /* eslint-disable no-unused-vars */
-import Swiper from 'swiper'
+import Swiper from 'swiper';
 
+// eslint-disable-next-line no-var
 var mySwiper = new Swiper('.swiper-container', {
   updateOnWindowResize: true,
   slidesPerView: 3,
@@ -36,8 +37,7 @@ var mySwiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 });
+
 var mySwiper = document.querySelector('.swiper-container').swiper
 
 mySwiper.slideNext();
-
-

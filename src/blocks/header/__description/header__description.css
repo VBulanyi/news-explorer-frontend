@@ -11,3 +11,17 @@ line-height: 133%x;
 color: #ffffff;
 max-width: 500px;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__description{
+    font-size: 0.875rem;
+    margin-top: 16px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__description {
+
+    }
+  }

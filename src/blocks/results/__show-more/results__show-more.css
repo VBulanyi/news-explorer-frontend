@@ -5,3 +5,17 @@
   font-weight: 500;
   line-height: 133%;
 }
+
+@media screen and (max-width: 1023px) {
+  .results__show-more {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .results__show-more {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+}

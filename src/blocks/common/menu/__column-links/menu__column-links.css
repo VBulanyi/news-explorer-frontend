@@ -6,3 +6,9 @@ justify-content: space-between;
 list-style-type: none;
 font-weight: 500;
 }
+
+@media screen and (max-width: 767px) {
+  .menu__column-links {
+    display: none;
+    }
+  }

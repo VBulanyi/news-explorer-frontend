@@ -2,3 +2,17 @@
   font-size: 2.5rem;
   margin-top: 20px;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .customers__title {
+    font-size: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .customers__title {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
