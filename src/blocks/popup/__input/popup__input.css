@@ -3,11 +3,11 @@
   height: 47px;
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, .2);
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 17px;
   box-sizing: border-box;
-  padding: 5px 6px 13px;
   margin-bottom: 24px;
+  color: #000;
 }
 
 .popup__input:last-of-type {

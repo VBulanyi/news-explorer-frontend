@@ -16,7 +16,8 @@
         <nav class="menu">
           <a class="menu__logo" href="./">NewsExplorer</a>
           <ul class="menu__column-links">
-            <li class="menu__item menu__item_active"><a class="menu__column-link menu__column-link_active"href="./">Главная</a></li>
+            <li class="menu__item menu__item_active"><a class="menu__column-link menu__column-link_active"
+                href="./">Главная</a></li>
             <li class="menu__item"><a class="menu__column-link" href="./about/">О проекте</a></li>
             <li class="menu__item"><a class="menu__column-link" href="./news/">Сохранённые статьи</a></li>
             <li class="menu__item"><a class="menu__column-link  menu__link-auth" href="">Авторизоваться</a></li>
@@ -33,21 +34,26 @@
         </div>
     </div>
     <div class="popup-form">
-        <div class="popup popupAdd">
-            <div class="popup__content">
-                <img id="formAddClose" src="<%=require('./images/close.svg')%>" alt="" class="popup__close">
-                <h3 class="popup__title">Новое место</h3>
-                <form id="formAdd" class="popup__form" name="new">
-                    <input required id="formAddName" type="text" maxlength="30" name="name"
-                        class="popup__input popup__input_type_name" placeholder="Название">
-                    <span id="errorAddName" class="error" aria-live="polite"></span>
-                    <input id="formAddUrl" required type="url" name="link"
-                        class="popup__input popup__input_type_link-url" placeholder="Ссылка на картинку">
-                    <span id="errorAddUrl" class="error" aria-live="polite"></span>
-                    <button id="addSbmBtn" type="submit" class="button popup__button" disabled>+</button>
-                </form>
-            </div>
+      <div class="popup popupAdd">
+        <div class="popup__content">
+          <img id="formAddClose" src="<%=require('./images/close.svg')%>" alt="" class="popup__close">
+          <h3 class="popup__title">Вход</h3>
+          <form id="formAdd" class="popup__form" name="new">
+            <span class="popup__tip">Email</span>
+            <input required id="formAddName" type="email" name="name" class="popup__input popup__input_type_name"
+              placeholder="Введите почту">
+            <span id="errorAddName" class="error" aria-live="polite"></span>
+            <span class="popup__tip">Пароль</span>
+            <input id="formAddUrl" required type="text" min="8" name="link"
+              class="popup__input popup__input_type_link-url" placeholder="Введите пароль">
+            <span id="errorAddUrl" class="error" aria-live="polite"></span>
+            <button id="addSbmBtn" type="submit" class="popup__button" disabled>Войти</button>
+          </form>
+          <div class="popup__reg">
+          <span>или </span><a class="popup__reg-link" href="">Зарегистрироваться</a></div>
         </div>
+      </div>
+    </div>
     </header>
     <main>
       <section class="preloader">
@@ -71,7 +77,8 @@
               <div class="card__image">
                 <div class="card__backgronud"></div>
                 <div class="card__bookmark"></div>
-                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Войдите, чтобы сохранять статьи</span>
+                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Войдите, чтобы сохранять
+                  статьи</span>
               </div>
               <div class="card__content">
                 <span class="card__date">2 августа, 2019</span>
@@ -86,7 +93,8 @@
               <div class="card__image">
                 <div class="card__backgronud"></div>
                 <div class="card__bookmark"></div>
-                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Войдите, чтобы сохранять статьи</span>
+                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Войдите, чтобы сохранять
+                  статьи</span>
               </div>
               <div class="card__content">
                 <span class="card__date">2 августа, 2019</span>
@@ -101,7 +109,8 @@
               <div class="card__image">
                 <div class="card__backgronud"></div>
                 <div class="card__bookmark_marked"></div>
-                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Войдите, чтобы сохранять статьи</span>
+                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Войдите, чтобы сохранять
+                  статьи</span>
               </div>
               <div class="card__content">
                 <span class="card__date">2 августа, 2019</span>
@@ -119,17 +128,17 @@
 
       <section class="about">
         <div class="about__wrapper">
-        <div class="about__photo">
-        </div>
-        <div class="about__content">
-          <h2 class="about__title">Об авторе</h2>
-          <p class="about__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы
-            занимаетесь, какими технологиями разработки владеете.
-            <br>
-            <br>
-            Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь
-            потенциальным заказчикам.</p>
-        </div>
+          <div class="about__photo">
+          </div>
+          <div class="about__content">
+            <h2 class="about__title">Об авторе</h2>
+            <p class="about__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы
+              занимаетесь, какими технологиями разработки владеете.
+              <br>
+              <br>
+              Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь
+              потенциальным заказчикам.</p>
+          </div>
         </div>
       </section>
     </main>

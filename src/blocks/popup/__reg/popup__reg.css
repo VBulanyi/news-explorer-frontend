@@ -1,0 +1,9 @@
+@import url(./__reg-link/popup__reg-link.css);
+
+.popup__reg {
+display: block;
+margin-top: 16px;
+font-size: 0.875rem;
+width: 100%;
+text-align: center;
+}
