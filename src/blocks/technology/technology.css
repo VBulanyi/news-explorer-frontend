@@ -1,0 +1,9 @@
+@import url(./__wrapper/technology__wrapper.css);
+@import url(./__title/technology__title.css);
+@import url(./__item/technology__item.css);
+@import url(./__item-logo/technology__item-logo.css);
+@import url(./__container/technology__container.css);
+
+.technology {
+background-color: #F5F6F7;
+}

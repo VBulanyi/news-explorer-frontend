@@ -1,0 +1,9 @@
+@import url(./__title/slider__title.css);
+@import url(./__git-link/slider__git-link.css);
+
+.slider__title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}

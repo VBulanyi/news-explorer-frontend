@@ -1,0 +1,14 @@
+@import url(./_black/header__title_black.css);
+@import url(./_about/header__title_about.css);
+
+.header__title {
+  max-width: 400px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.75rem;
+  line-height: 107%;
+  color: #ffffff;
+  margin: 40px 0 0;
+  font-weight: 400;
+}

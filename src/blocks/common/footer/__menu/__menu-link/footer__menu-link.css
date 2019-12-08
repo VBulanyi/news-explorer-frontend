@@ -1,0 +1,11 @@
+.footer__menu-link a {
+  font-family: Roboto;
+  font-size: 1.12rem;
+  margin-right: 40px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer__menu-link:last-child {
+  margin-right: 0px;
+}

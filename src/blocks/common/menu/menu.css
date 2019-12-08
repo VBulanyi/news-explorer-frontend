@@ -1,0 +1,14 @@
+@import url(./__column-link/menu__column-link.css);
+@import url(./__column-links/menu__column-links.css);
+@import url(./__item/menu__item.css);
+@import url(./__link-auth/menu__link-auth.css);
+@import url(./__logo/menu__logo.css);
+@import url(./__logout-icon/menu__logout-icon.css);
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 104px;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 80px;
+}

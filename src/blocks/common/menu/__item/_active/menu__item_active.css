@@ -1,0 +1,4 @@
+.menu__item_active {
+  color: #B6BCBF;
+  border-bottom: 3px solid #e5e5e5;
+}

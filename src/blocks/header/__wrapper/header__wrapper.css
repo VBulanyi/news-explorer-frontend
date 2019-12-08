@@ -1,0 +1,6 @@
+@import url(./_about/header__wrapper_about.css);
+
+.header__wrapper {
+  width: 600px;
+  margin: auto;
+}

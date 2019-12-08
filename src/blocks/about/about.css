@@ -1,0 +1,10 @@
+@import url(./__content/about__content.css);
+@import url(./__photo/about__photo.css);
+@import url(./__wrapper/about__wrapper.css);
+
+.about {
+  display: flex;
+  max-height: 624px;
+  background-color: #fff;
+
+}

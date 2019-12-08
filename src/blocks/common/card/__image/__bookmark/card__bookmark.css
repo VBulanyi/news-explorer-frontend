@@ -1,0 +1,41 @@
+@import url(./__trash/card__bookmark_trash.css);
+.card__bookmark {
+position: absolute;
+top: 24px;
+right: 24px;
+width: 40px;
+height: 40px;
+background-repeat: no-repeat;
+cursor: pointer;
+z-index: 2;
+border-radius: 8px;
+background-color: white;
+background-image: url(../../../../../images/bookmarks/bookmark-normal.svg);
+background-position: 50%;
+}
+
+.card__bookmark:hover {
+  background-image: url(../../../../../images/bookmarks/bookmark-hover.svg);
+}
+
+.card__bookmark_marked {
+  background-image: url(../../../../../images/bookmarks/bookmark-marked.svg);
+  position: absolute;
+top: 24px;
+right: 24px;
+width: 40px;
+height: 40px;
+background-repeat: no-repeat;
+cursor: pointer;
+z-index: 2;
+border-radius: 8px;
+background-color: white;
+background-position: 50%;
+}
+
+
+.card__bookmark:hover ~ .card__bookmark-notification_loged-in {
+  opacity: 1;
+  transition: 0.3s;
+  z-index: 3;
+}

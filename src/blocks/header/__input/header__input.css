@@ -1,0 +1,12 @@
+.header__input {
+background: #FFFFFF;
+width: 1000%;
+border: 0;
+box-sizing: border-box;
+backdrop-filter: blur(8px);
+border-radius: 100px;
+padding-bottom: 21px;
+padding-top: 21px;
+padding-left: 24px;
+outline: none;
+}

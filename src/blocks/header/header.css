@@ -1,0 +1,18 @@
+@import url(./__wrapper/header__wrapper.css);
+@import url(./__bar/header__bar.css);
+@import url(./__button/header__search-button.css);
+@import url(./__description/header__description.css);
+@import url(./__input/header__input.css);
+@import url(./__title/header__title.css);
+@import url(./_white/header_white.css);
+@import url(./__about/header__about.css);
+
+.header {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  color: #FFFFFF;
+  min-height: 576px;;
+  background-image: url(../../images/background.png);
+  /* overflow: hidden; */
+}

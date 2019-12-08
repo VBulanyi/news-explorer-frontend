@@ -1,0 +1,9 @@
+.card__backgronud {
+position: relative;
+height: 272px;
+background-image: url(../../../../../images/card-bg.svg);
+background-repeat: no-repeat;
+border-radius: 16px 16px 0px 0px;
+z-index: 2;
+
+}

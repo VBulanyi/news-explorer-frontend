@@ -1,0 +1,13 @@
+@import url(./_black/header__description_black.css);
+@import url(./_bold/header__description_bold.css);
+
+.header__description {
+margin-top: 32px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 1.125rem;
+line-height: 133%x;
+color: #ffffff;
+max-width: 500px;
+}

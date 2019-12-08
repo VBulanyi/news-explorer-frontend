@@ -1,0 +1,12 @@
+@import url(./__date/slider__date.css);
+@import url(./__author/slider__author.css);
+@import url(./__text/slider__text.css);
+
+.swiper-slide {
+display: flex;
+flex-direction: column;
+height: 288px;
+background-color: #fff;
+border-radius: 16px;
+cursor: pointer;
+}

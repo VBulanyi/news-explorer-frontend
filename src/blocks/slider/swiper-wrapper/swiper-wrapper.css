@@ -1,0 +1,7 @@
+@import url(./swiper-slide/swiper-slide.css);
+
+.swiper-wrapper {
+  height: 300px;
+  padding-bottom: 50px;
+
+}

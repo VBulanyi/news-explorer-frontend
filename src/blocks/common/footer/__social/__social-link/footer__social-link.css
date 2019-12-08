@@ -1,0 +1,7 @@
+.footer__social-link {
+  margin-right: 28px;
+}
+
+.footer__social-link:last-child {
+  margin-right: 0px;
+}

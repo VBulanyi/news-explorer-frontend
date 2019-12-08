@@ -1,0 +1,196 @@
+<!-- <!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Webpack</title>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css%>">
+</head>
+
+<body>
+  <div class="page">
+    <div class="content">
+      <header class="header">
+        <nav class="menu">
+          <a class="menu__logo" href="./">NewsExplorer</a>
+          <ul class="menu__column-links">
+            <li class="menu__item"><a class="menu__column-link menu__column-link_active" href="../">Главная</a></li>
+            <li class="menu__item menu__item_active"><a class="menu__column-link" href="../about/">О проекте</a></li>
+            <li class="menu__item"><a class="menu__column-link" href="../news/">Сохранённые статьи</a></li>
+            <li class="menu__item"><a class="menu__column-link  menu__link-auth" href="">Авторизоваться</a></li>
+          </ul>
+        </nav>
+        <div class="header__wrapper">
+          <h2 class="header__title title">Грета, у вас 5 сохранённых статей</h2>
+          <p class="header__description description">По ключевым словам: Природа, Тайга и 2 другим</p>
+        </div>
+    </div>
+    </header>
+
+    <main>
+      <section class="client">
+        <h2 class="client__title">Клиентам</h2>
+        <div class="client__text-container">
+          <p class="client__text">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему
+            научился студент, какими технологиями владеет.
+          </p>
+          <p class="client__text">Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым.
+            Кроме того, добавлять новые страницы и функциональность проще и быстрее, чем в проектах, выполненных по
+            другим методологиям. Также сайт проще и дешевле поддерживать.
+          </p>
+          <p class="client__text">Студент самостоятельно написал серверный код. В нём реализована функциональность
+            регистрации и входа в систему. Сайт позволяет искать новости за прошедшую неделю и сохранять понравившиеся в
+            личном кабинете. На сервере избранные новости хранятся в базе данных Mongo DB. Студент запрограммировал
+            надёжный сервер: отказоустойчивый и безопасный.</p>
+          <p class="client__text">При создании проекта была использована сборка технологией Webpack. Это современный
+            подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также сайт работает в
+            старых браузерах. Даже если посетители — пользователи старых операционных систем, у них не будет проблем с
+            отображением. А значит, потенциальная аудитория возрастает.</p>
+          <p class="client__text">Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт, мы
+            рекомендуем обратиться к этому студенту.</p>
+        </div>
+      </section>
+
+      <section class="tehnologies">
+        <h2 class="tehnologies__title"></h2>
+        <div class="tehnologies__container">
+          <span class="tehnologies__name">HTML</span>
+          <img class="tehnologies__logo" src="" alt="HTML logo">
+        </div>
+        <div class="tehnologies__container">
+          <span class="tehnologies__name">CSS</span>
+          <img class="tehnologies__logo" src="" alt="CSS logo">
+        </div>
+        <div class="tehnologies__container">
+          <span class="tehnologies__name">Java Script</span>
+          <img class="tehnologies__logo" src="" alt="Java Script logo">
+        </div>
+        <div class="tehnologies__container">
+          <span class="tehnologies__name">Webpack</span>
+          <img class="tehnologies__logo" src="" alt="Webpack logo">
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about__photo">
+          <img src="<%=require('../../../../images/avatar.jpg" alt="фото на аватар">
+        </div>
+        <div class="about__content">
+          <h2 class="about__title">Об авторе</h2>
+          <p class="about__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы
+            занимаетесь, какими технологиями разработки владеете.
+            <br>
+            <br>
+            Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь
+            потенциальным заказчикам.</p>
+        </div>
+      </section>
+
+      <section class="git">
+        <h2 class="git__title">История коммитов из GitHubОткрыть в Github </h2>
+        <a class="git__about" href="">Открыть в Github &#62</a>
+
+        <div class="git__card">
+          <span class="git__date">14 августа, 2019</span>
+          <img class="git__photo" src="" alt="">
+          <h3 class="git__auther">Антон Долинин</h3>
+          <span class="git__email">anton@yandex.ru</span>
+          <p class="git__text">Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2019. Владимир Буланый</p>
+      <nav>
+        <ul class="footer__menu">
+          <li class="footer__menu-link"><a href="./">Главная</a></li>
+          <li class="footer__menu-link"><a href="./about">О проектке</a></li>
+          <li class="footer__menu-link"><a href="https://praktikum.yandex.ru">Яндекс.Практикум</a></li>
+        </ul>
+      </nav>
+      <div class="footer__social">
+        <a class="footer__social-link" href="https://github.com/VBulanyi/">
+          <img src="<%= require('../../../../images/git.svg" alt="GitHub Logo">
+        </a>
+        <a class="footer__social-link" href="#">
+          <img src="<%= require('../../../../images/facebook.svg" alt="Facebook Logo">
+        </a>
+      </div>
+    </footer>
+  </div>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpack</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+<body>
+  <div class="page">
+    <header  class="header">
+            <nav class="menu">
+                <a class="menu__logo" href="./">NewsExplorer</a>
+              <ul class="menu__column-links">
+                <li class="menu__item"><a class="menu__column-link menu__column-link_active" href="../">Главная</a></li>
+                <li class="menu__item"><a class="menu__column-link" href="../about/">О проекте</a></li>
+                <li class="menu__item menu__item_active"><a class="menu__column-link" href="./">Сохранённые статьи</a></li>
+                <li class="menu__item"><a class="menu__column-link  menu__link-auth" href="">Авторизоваться</a></li>
+              </ul>
+            </nav>
+    </header>
+
+    <main class="content">
+      <section class="results">
+        <p class="results__about">Сохранённые статьи</p>
+        <h2 class="results__title title">Грета, у вас 5 сохранённых статей</h2>
+        <p class="results__description description">По ключевым словам: Природа, Тайга и 2 другим</p>
+      </section>
+      <section class="results">
+        <div class="results__container_main">
+          <h2 class="results__title">Результаты поиска</h2>
+          <div class="results__container">
+            <div class="results-card">
+              <div class="results-card__image">
+                <div class="results-card__label"></div>
+              </div>
+              <div class="results-card__content">
+                <span class=" results-card__date"></span>
+                <h3 class="results-card__title"></h3>
+                <p class="results-card__text"></p>
+                <span class="results-card__source"></span>
+              </div>
+            </div>
+            <div class="results-card"></div>
+            <div class="results-card"></div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column copyright">
+          <div class="footer__author">&copy;   2019. Владимир Буланый</div>
+        </div>
+        <div class="footer__column-links">
+            <a class="footer__column-link" href="#">Главная</a>
+            <a class="footer__column-link" href="#">О проектк</a>
+            <a class="footer__column-link" href="#">Яндекс.Практикум</a>
+        </div>
+        <div class="footer__column social">
+            <a class="footer__social-link" href="#"><img class="footer__social-links-logo" src="./imagefacebook_white.svg" alt="facebook logo"></a>
+            <a class="footer__social-link" href="#"><img class="footer__social-links-logo" src="./imagegithub.svg" alt="github logo"></a>
+          </div>
+      </div>
+    </footer>
+  </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>
