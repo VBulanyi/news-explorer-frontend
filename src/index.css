@@ -8,6 +8,7 @@
 @import url(blocks/results/results.css);
 @import url(blocks/about/about.css);
 @import url(blocks/customers/customers.css);
+@import url(blocks/popup/popup.css);
 
 .page {
   max-width: 1440px;

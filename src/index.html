@@ -32,6 +32,22 @@
           </form>
         </div>
     </div>
+    <div class="popup-form">
+        <div class="popup popupAdd">
+            <div class="popup__content">
+                <img id="formAddClose" src="<%=require('./images/close.svg')%>" alt="" class="popup__close">
+                <h3 class="popup__title">Новое место</h3>
+                <form id="formAdd" class="popup__form" name="new">
+                    <input required id="formAddName" type="text" maxlength="30" name="name"
+                        class="popup__input popup__input_type_name" placeholder="Название">
+                    <span id="errorAddName" class="error" aria-live="polite"></span>
+                    <input id="formAddUrl" required type="url" name="link"
+                        class="popup__input popup__input_type_link-url" placeholder="Ссылка на картинку">
+                    <span id="errorAddUrl" class="error" aria-live="polite"></span>
+                    <button id="addSbmBtn" type="submit" class="button popup__button" disabled>+</button>
+                </form>
+            </div>
+        </div>
     </header>
     <main>
       <section class="preloader">
