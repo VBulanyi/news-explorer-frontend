@@ -691,6 +691,12 @@ line-height: 115%;
 .footer__menu-link:last-child {
   margin-right: 0px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__menu-link {
+margin-bottom: 20px;
+  }
+}
 .footer__menu {
   list-style-type: none;
   margin: 0;
@@ -737,9 +743,9 @@ line-height: 115%;
     height: 224px;
     align-items: flex-start;
     margin-top: 20px;
-    padding: 0 16px 0 16px;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding: 0;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 
@@ -971,7 +977,6 @@ margin-top: 30px;
 @media screen and (max-width: 767px) {
   .results__continer {
     grid-template-columns: 1fr;
-
   }
 }
 
