@@ -1,9 +1,20 @@
-.header__search-button {
+.header-search__button {
   margin: 0;
+  background-color: #2f71e5;
+
+}
+
+.header-search__button:hover {
+  color: #347EFF;
+}
+
+
+.header-search__button:active {
+  background-color: #2a65cc;
 }
 
 @media screen and (max-width: 767px) {
-  .header__search-button {
+  .header-search__button {
     text-align: center;
     }
   }
