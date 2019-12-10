@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
@@ -9,10 +9,6 @@ module.exports = {
     about: './src/pages/about/index.js',
     news: './src/pages/news/index.js',
   },
-  // output: {
-  //   path: path.resolve(__dirname, 'dist'),
-  //   filename: '[name].[chunkhash].js'
-  // },
   output: {
     path: path.resolve(__dirname, 'dist'),
     // eslint-disable-next-line arrow-body-style
@@ -24,32 +20,43 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: { loader: "babel-loader" },
-        exclude: /node_modules/
+        use: { loader: 'babel-loader' },
+        exclude: /node_modules/,
       },
       {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'] // добавили минификацию CSS
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
       },
       {
         test: /\.(eot|ttf|woff|woff2)$/,
         loader: 'file-loader?name=./vendor/[name].[ext]',
       },
       {
-        test: /\.(png|jpg|gif|ico|svg)$/,
+        test: /\.(gif|png|jpe?g|svg)$/i,
         use: [
-          'file-loader?name=./src/images/[name].[ext]',
+          'file-loader?name=./images/[name].[ext]',
           {
             loader: 'image-webpack-loader',
             options: {
-              bypassOnDebug: true,
-              disable: true
-            }
+              mozjpeg: {
+                progressive: true,
+                quality: 85,
+              },
+              optipng: {
+                enabled: false,
+              },
+              pngquant: {
+                quality: 90,
+                speed: 4,
+              },
+              gifsicle: {
+                interlaced: false,
+              },
+            },
           },
         ],
-      }
-
-    ]
+      },
+    ],
   },
 
   plugins: [
@@ -74,6 +81,6 @@ module.exports = {
       filename: 'about/index.html',
     }),
 
-    new WebpackMd5Hash()
-  ]
+    new WebpackMd5Hash(),
+  ],
 };

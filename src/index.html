@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Vladimir Bulanyi">
   <meta name="description" content="Diploma project">
   <title>News Explorer</title>
@@ -41,11 +43,12 @@
                 <span class="popup__tip">Email</span>
                 <input required id="formAddName" type="email" name="name" class="popup__input popup__input_type_name"
                   placeholder="Введите почту">
-                <span class="popup__input-name-err" id="errorAddName"  aria-live="polite">Неправильный формат email</span>
+                <span class="popup__input-name-err" id="errorAddName" aria-live="polite">Неправильный формат
+                  email</span>
                 <span class="popup__tip">Пароль</span>
                 <input id="formAddUrl" required type="text" minlength="8" name="link"
                   class="popup__input popup__input_type_link-url" placeholder="Введите пароль">
-                 <button id="addSbmBtn" type="submit" class="popup__button">Войти</button>
+                <button id="addSbmBtn" type="submit" class="popup__button">Войти</button>
               </form>
               <div class="popup__reg">
                 <span>или </span><a class="popup__reg-link" href="">Зарегистрироваться</a></div>
@@ -55,10 +58,10 @@
       </header>
       <main>
         <section class="preloader">
-          <!-- <div class="preloader__wrapper preloader__wrapper_search">
-          <i class="preloader__circle"></i>
-          <span class="preloader__search-text">Идет поиск новостей...</span>
-        </div> -->
+          <div class="preloader__wrapper preloader__wrapper_search">
+            <i class="preloader__circle"></i>
+            <span class="preloader__search-text">Идет поиск новостей...</span>
+          </div>
           <div class="preloader__wrapper preloader__wrapper_not-found">
             <img class="preloader__not-found-img" src="<%= require('./images/not-found.svg')%>"
               alt="Картинка ничего не найдено">

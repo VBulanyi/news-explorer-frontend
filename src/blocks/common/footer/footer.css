@@ -26,8 +26,8 @@
     height: 224px;
     align-items: flex-start;
     margin-top: 20px;
-    padding: 0 16px 0 16px;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding: 0;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

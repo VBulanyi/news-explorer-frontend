@@ -9,4 +9,17 @@
   line-height: 1;
   align-self: center;
   color: #fff;
+  margin-left: 104px;
+}
+
+@media screen and (max-width: 1023px) {
+  .menu__logo {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .menu__logo {
+    margin-left: 16px;
+  }
 }

@@ -8,14 +8,21 @@
 .menu {
   display: flex;
   justify-content: space-between;
-  padding: 0 104px;
+  /* padding: 0 104px; */
   border-bottom: 1px solid #e5e5e5;
   min-height: 80px;
 }
 
+@media screen and (max-width: 1023px) {
+  .menu {
+    /* padding-left: 40px; */
+    min-height: 66px;
+    }
+  }
+
 @media screen and (max-width: 767px) {
   .menu {
-    padding-left: 16px;
+    /* padding-left: 16px; */
     min-height: 56px;
     }
   }

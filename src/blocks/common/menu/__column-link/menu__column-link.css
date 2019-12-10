@@ -10,3 +10,15 @@
   cursor: pointer;
   color: #fff;
 }
+
+@media screen and (max-width: 1023px) {
+  .menu__column-link {
+    font-size: 1.12rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .menu__column-link {
+    font-size: 1.12rem;
+  }
+}
