@@ -12,14 +12,17 @@
   flex-direction: column;
   opacity: 1;
   color: #FFFFFF;
-  min-height: 576px;
   background-image: url(../../images/background.png);
-  /* overflow: hidden; */
+  min-height: 576px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+
 }
 
 @media screen and (max-width: 1023px) {
   .header{
-    min-height: 400px;
+    min-height: 466px;
 
   }
 }

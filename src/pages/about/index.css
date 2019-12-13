@@ -49,3 +49,8 @@
 .swiper-button-next::after {
   content: none;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,4 +1,5 @@
-@import url(./_grey/footer__copyright_grey.css);
-.footer__copyright {
-font-size: 1rem;
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    color: #B6BCBF;
+  }
 }

@@ -1,0 +1,6 @@
+
+@import url(./_black/menu__mobile.menu__mobile_close_black.css);
+
+.menu__mobile.menu__mobile_close {
+  background-image: url(../../../../../images/menu-close-white.svg);
+}

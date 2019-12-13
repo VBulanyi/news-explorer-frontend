@@ -1,9 +1,10 @@
 @import url(./_active/menu__item_active.css);
+@import url(./_hidden/menu__item_hidden.css);
 
 .menu__item {
   display: flex;
   height: 100%;
-  margin-right: 32px;
+  /* margin-right: 32px; */
   box-sizing: border-box;
   display: flex;
   height: 100%;
@@ -15,7 +16,7 @@
 
 @media screen and (max-width: 1023px) {
   .menu__item {
-    margin-right: 16px;
+    /* margin-right: 16px; */
     }
   }
 

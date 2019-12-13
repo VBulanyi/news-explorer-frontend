@@ -8,6 +8,7 @@
     "dev": "webpack-dev-server --mode development --open --watch",
     "deploy-gh": "gh-pages -d dist",
     "deploy": "npm run build && scp -r ./dist/* jetbul@84.201.161.216:/home/jetbul/news-explorer-frontend"
+
   },
   "repository": {
     "type": "git",

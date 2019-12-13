@@ -1,6 +1,7 @@
 @import url(./_grey/menu__colunm-link_grey.css);
 @import url(./_active/menu__column-link_active.css);
 @import url(./_black/menu__colunm-link_black.css);
+@import url(./_hidden/menu__column-link_hidden.css);
 
 .menu__column-link {
   text-decoration: none;
@@ -9,11 +10,14 @@
   font-weight: 500;
   cursor: pointer;
   color: #fff;
+  margin-right: 32px;
+
 }
 
 @media screen and (max-width: 1023px) {
   .menu__column-link {
     font-size: 1.12rem;
+    margin-right: 16px;
   }
 }
 
