@@ -19,9 +19,3 @@ max-width: 500px;
 
   }
 }
-
-@media screen and (max-width: 767px) {
-  .header__description {
-
-    }
-  }
