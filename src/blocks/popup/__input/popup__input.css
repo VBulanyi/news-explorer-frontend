@@ -15,3 +15,9 @@
 .popup__input:last-of-type {
   margin-bottom: 0;
 }
+
+/* Сообщение об ошибке эмэйл в форме */
+
+.popup__input:invalid:not(:placeholder-shown) + .popup__err {
+	display: block;
+}

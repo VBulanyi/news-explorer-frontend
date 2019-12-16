@@ -2,6 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
   entry: {
@@ -25,7 +27,24 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: { publicPath: '../', }
+          },
+          {
+            loader: 'css-loader',
+            options: { importLoaders: 1 },
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              config: {
+                path: __dirname + '/postcss.config.js'
+              }
+            },
+          },
+        ],
       },
       {
         test: /\.(eot|ttf|woff|woff2)$/,
@@ -61,12 +80,20 @@ module.exports = {
 
   plugins: [
     new MiniCssExtractPlugin({ //
-      filename: 'index.[contenthash].css',
+      filename: 'css/style.[contenthash].css',
+    }),
+    new OptimizeCssAssetsPlugin({
+      assetNameRegExp: /\.css$/g,
+      cssProcessor: require('cssnano'),
+      cssProcessorPluginOptions: {
+        preset: ['default', { discardComments: { removeAll: true } }]
+      },
+      canPrint: true,
     }),
     new HtmlWebpackPlugin({
       inject: false,
       template: './src/index.html',
-      filename: 'index.html'
+      filename: 'index.html',
     }),
     new HtmlWebpackPlugin({
       inject: false,
@@ -82,5 +109,8 @@ module.exports = {
     }),
 
     new WebpackMd5Hash(),
+    new webpack.DefinePlugin({
+      NODE_ENV: JSON.stringify(process.env.NODE_ENV),
+    }),
   ],
 };

@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>news-explorer-frontend/roboto-regular-webfont.woff at develop-2 · kirillkushpel/news-explorer-frontend</title>
+  <title>news-explorer-frontend/robotoslab-bold.woff at develop-2 · kirillkushpel/news-explorer-frontend</title>
     <meta name="description" content="Contribute to kirillkushpel/news-explorer-frontend development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars0.githubusercontent.com/u/47214006?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="kirillkushpel/news-explorer-frontend" /><meta property="og:url" content="https://github.com/kirillkushpel/news-explorer-frontend" /><meta property="og:description" content="Contribute to kirillkushpel/news-explorer-frontend development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDU3OTUxNTAyOmVjZDQ3MTUwYTBmNGYxMDkxY2ViOTQzNTM1MzNhOWE5ZmI2ZDJiZTY4ZGZhOGMyYjNjZTEzNjkzOGUzMmJiYWY=--2efbc4a01c4986ae67dfc6bb4d2de5ba4cd7165b">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDU3OTUxNTAyOmI4YjM0NmU3NDM4ZGM2YWQ1NzBjYjgxOThjNGRiNmE4NTJhMjY0YzE3ZmNiNGI1MGMxZDM2NzUzNjA5NzNhOGI=--4cb75c127d94171651b9a0dfbde72a863f5321a8">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-    <meta name="request-id" content="EE1E:94AD:19476C05:2613DABD:5DF720ED" data-pjax-transient>
+    <meta name="request-id" content="EE1E:94AD:19477AA0:26140256:5DF7210C" data-pjax-transient>
 
 
 
@@ -54,7 +54,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="EE1E:94AD:19476C05:2613DABD:5DF720ED" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="8121246738349683566" /><meta name="octolytics-actor-id" content="44462928" /><meta name="octolytics-actor-login" content="VBulanyi" /><meta name="octolytics-actor-hash" content="1cb3e53a274c1939985787032ba32fc6fee8ceb3111f98abbc2dac09f9ff7de3" />
+    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="EE1E:94AD:19477AA0:26140256:5DF7210C" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="8121246738349683566" /><meta name="octolytics-actor-id" content="44462928" /><meta name="octolytics-actor-login" content="VBulanyi" /><meta name="octolytics-actor-hash" content="1cb3e53a274c1939985787032ba32fc6fee8ceb3111f98abbc2dac09f9ff7de3" />
 
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
@@ -75,7 +75,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="YzUzOGYzMjcxOGViM2IzMzAyNjcyZTZkNGU2M2IwMDQ5MjA1YzM5ZGQyMmU3Nzg0NWU4Nzg3NDgwMTQ1MzNkYnx7InJlbW90ZV9hZGRyZXNzIjoiODAuNzMuMTk1LjIzMyIsInJlcXVlc3RfaWQiOiJFRTFFOjk0QUQ6MTk0NzZDMDU6MjYxM0RBQkQ6NURGNzIwRUQiLCJ0aW1lc3RhbXAiOjE1NzY0NzY5NDAsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="NTY1N2UzMWI0M2FmZjEyNmZlYzRmZDhkYTQzYjhjNDAxYjE5MWNiMzc5NDFmYTAyOWQyMWE3OWJhZGM2ZmUwYnx7InJlbW90ZV9hZGRyZXNzIjoiODAuNzMuMTk1LjIzMyIsInJlcXVlc3RfaWQiOiJFRTFFOjk0QUQ6MTk0NzdBQTA6MjYxNDAyNTY6NURGNzIxMEMiLCJ0aW1lc3RhbXAiOjE1NzY0NzY5NTksImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES,GHE_CLOUD_TRIAL">
 
@@ -91,7 +91,7 @@
   <meta name="octolytics-dimension-user_id" content="47214006" /><meta name="octolytics-dimension-user_login" content="kirillkushpel" /><meta name="octolytics-dimension-repository_id" content="223159450" /><meta name="octolytics-dimension-repository_nwo" content="kirillkushpel/news-explorer-frontend" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="223159450" /><meta name="octolytics-dimension-repository_network_root_nwo" content="kirillkushpel/news-explorer-frontend" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/roboto-regular-webfont.woff" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/robotoslab-bold.woff" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -165,7 +165,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=so7RMAtY4irSrmtAuepuOiN8J/bWz11g9dk5JdNcKnB6ID5Vsx02IvklCiztRdJH+6msmtOhp2cNGKjZgarg3A=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=CY0S9o/QDyApwXOHgZYtGmK4p8yOhZWWVs67BLYhKp7BI/2TN5XbKAJKEuvVOZFnum0soIvrb5GuDyr45NfgMg=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -318,7 +318,7 @@
       <img class="avatar" height="20" width="20" alt="@VBulanyi" src="https://avatars0.githubusercontent.com/u/44462928?s=60&amp;v=4" />
       VBulanyi
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0k51MxgKpZ0fp5XTGAQOm3o51X1Xz0eJZEJfzviusBlwF9K0+WEr+rlHLg3yJUr7Kig7giQvyxT69xs5N9XT6g==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tkZljAT/rT3ooK9ZW0t40sMUAIGdVaV4thUepiJdvJUUH8IL5ZQjWk5AFIexajyykwXufu61KeUooFpR7SbfZg==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -411,7 +411,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:47214006,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:44462928,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19476C05:2613DABD:5DF720ED&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/roboto-regular-webfont.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;}}" data-hydro-click-hmac="a7620da3ed9e4a7332970b7ba393cd277dbd30460690139009a6aabde4cd593e">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:47214006,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:44462928,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19477AA0:26140256:5DF7210C&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/robotoslab-bold.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;}}" data-hydro-click-hmac="bc9cbe4cb7fecf99add5e103e95508c3f261fb24498ca6302308e3ac3cc87ac6">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -438,7 +438,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="gvNUewuq75nsUclYxFgi8JeXJSTE7/ntiaPo3mV5SHgeoO8aTiMZVZ8Q/OAJPYinGRs2aEw1Bk1AnUQ7JX818g==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="2R9vqk2Ciir0bf50UEM7y83OVBc3VqgVcic0rFai7I5FTNTLCAt85ocsy8ydJpGcQ0JHW7+MV7W7GZhJFqSRBA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -558,17 +558,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-12-16T09:45:40+03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-12-16T09:45:59+03:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-12-16T10:15:40+03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-12-16T10:15:59+03:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-12-16T13:15:40+03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-12-16T13:15:59+03:00">
             in 4 hours
           </button>
         </li>
@@ -626,10 +626,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/VBulanyi/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19476C05:2613DABD:5DF720ED&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/roboto-regular-webfont.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}"
-    data-feature-preview-close-hmac="30b2e4eab45a44a9cf1b58e91403d2aa3d9991571e9f993fd0b580c298f37796"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19476C05:2613DABD:5DF720ED&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/roboto-regular-webfont.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}"
-    data-hydro-click-hmac="9b47a08720261085c1d047c2c23e9d5fdd50133a4d43efbb829d848d083df99d"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19477AA0:26140256:5DF7210C&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/robotoslab-bold.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}"
+    data-feature-preview-close-hmac="75a55bf320dbec9fffa50e656c129a6fa02fc126c475af1cfd70a674509466c8"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19477AA0:26140256:5DF7210C&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/robotoslab-bold.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}"
+    data-hydro-click-hmac="9d8395f831ed18241972c7b092a295778f8f02e141fe07d3cfda4a705217aa35"
   >
     Feature preview
   </button>
@@ -638,14 +638,14 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WZu4fvP53WVkbQYn8LEiKLs/eiKNbmSR4oJz+xYaQuz7wh/5EpJTAsKNvfkakGZI6y6U3f6O6Ax8NzcM2WEhHw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qv5aTEP1Cmr5Dl2+YEJv5ufHd6eC3t7yOuTUMtnU1k4Ip/3Lop6EDV/u5mCKYyuGt9aZWPE+Um+kUZDFFq+1vQ==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_6e38" id="required_field_6e38" hidden="hidden" class="form-control" />
-<input type="hidden" name="timestamp" value="1576476940746" class="form-control" />
-<input type="hidden" name="timestamp_secret" value="4e1af5b701387fac17929fac8f3defdd2db50268af37dd16d24b2cbee251f8bc" class="form-control" />
+      <input type="text" name="required_field_b477" id="required_field_b477" hidden="hidden" class="form-control" />
+<input type="hidden" name="timestamp" value="1576476959610" class="form-control" />
+<input type="hidden" name="timestamp_secret" value="28878777cf5628ed5c49fdb5da47155c68de7fd5e7c53b5e9378d3d3e2b2c50c" class="form-control" />
 
 </form>  </details-menu>
 </details>
@@ -694,10 +694,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="jrJTrtN4+s7UiMlXwRgCBy0eYQWA39ET+umpZIklzUbW+xL13yRQfjJlnZhMTpXMkm7rkFiCjjwA1FXQyrdU7g==" />      <input type="hidden" name="repository_id" value="223159450">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RQkFz0PU0LBqXHLTARmCEldDrsCOCZEW7cZT6McbeXodQESUT4h6AIyxJhyMTxXZ6DMkVVZUzjkX+69chIng0g==" />      <input type="hidden" name="repository_id" value="223159450">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:223159450,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19476C05:2613DABD:5DF720ED&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/roboto-regular-webfont.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}" data-hydro-click-hmac="972554fa0b44c2c6ef146430787fd1c47f6b35e8f72476e88e6813325e3ce8b7" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:223159450,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19477AA0:26140256:5DF7210C&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/robotoslab-bold.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}" data-hydro-click-hmac="6560561501f2482d00f435dee26a2862a2652782af4f2c85ff719d1530b0ff6d" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -768,9 +768,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/kirillkushpel/news-explorer-frontend/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="G1tIT3LFbwAVquyECwwrKBU2jOAqbQD8VTPCJb7vPe4Txn0t3Wrcr4mNkX+W5sL2OQmhtLHlCvwvbEpqGvNDwQ==" />
+    <form class="starred js-social-form" action="/kirillkushpel/news-explorer-frontend/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="dP8hPnwzgQPTbnLxY2VSxffjdRvGECo4v0Z7zfmzOHV8YhRc05wyrE9JDwr+j7sb29xYT12YIDjFGfOCXa9GWg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar kirillkushpel/news-explorer-frontend" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:223159450,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19476C05:2613DABD:5DF720ED&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/roboto-regular-webfont.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}" data-hydro-click-hmac="44e4debbda90468d2028b286e73b5532eef9a72b36bedc0f4ebf5177f77db8df" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar kirillkushpel/news-explorer-frontend" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:223159450,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19477AA0:26140256:5DF7210C&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/robotoslab-bold.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}" data-hydro-click-hmac="f92c766f903a33793048083904792ce82bf023a9d6bcc2cdb885c14b3c6d0b0d" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/kirillkushpel/news-explorer-frontend/stargazers"
@@ -778,9 +778,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/kirillkushpel/news-explorer-frontend/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9xGybV2a+C16hBCbnst3HyGopTPUgNSIlJCJauTxkoRtSD53a5151hyXLgZ1RWuRn7XfKR8v09qG0jaQ+hqItQ==" />
+    <form class="unstarred js-social-form" action="/kirillkushpel/news-explorer-frontend/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+hTQUIrjPX14c9FKxhDR0WkQ8QHGv/Z/TRsk5XSY2r1gTVxKvOS8hh5g79ctns1f1w2LGw0Q8S1fWZsfanPAjA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star kirillkushpel/news-explorer-frontend" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:223159450,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19476C05:2613DABD:5DF720ED&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/roboto-regular-webfont.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}" data-hydro-click-hmac="0688f370bccb6d33720788d7a5437dc2d399935a89fb1d12a4daaab1815d762b" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star kirillkushpel/news-explorer-frontend" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:223159450,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19477AA0:26140256:5DF7210C&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/robotoslab-bold.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}" data-hydro-click-hmac="7373ed25dfcec9b9ecaf53fd51640a3d0d43249ac4a9a3d3ee0163249a4f4165" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/kirillkushpel/news-explorer-frontend/stargazers"
@@ -792,8 +792,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/kirillkushpel/news-explorer-frontend/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IsYteGPeUwrKrFiHKiV4IQeW9wmPGGG45j9rf0xauYCfBj4BA/xpc2x6q92YMoWA6xAUhgBbLlSBIyXR/SjJgg==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:223159450,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19476C05:2613DABD:5DF720ED&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/roboto-regular-webfont.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}" data-hydro-click-hmac="21d64fbb2281915e82a0f73f9b1d2d03eaa49fc319fb04881cdcfecdbbb37974" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of kirillkushpel/news-explorer-frontend to your account" aria-label="Fork your own copy of kirillkushpel/news-explorer-frontend to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/kirillkushpel/news-explorer-frontend/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yOmXsTN9XsHgaCZWtanTnISRuc3ehW/fV4u6fBoT6lh1KYTIU19kuEa+1QwHvi49aBdaQlHGIDMwl/TSq2GaWg==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:223159450,&quot;client_id&quot;:&quot;1890875105.1554117486&quot;,&quot;originating_request_id&quot;:&quot;EE1E:94AD:19477AA0:26140256:5DF7210C&quot;,&quot;originating_url&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/robotoslab-bold.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts&quot;,&quot;user_id&quot;:44462928}}" data-hydro-click-hmac="553190868d41b81fdd830698e721cd63c650dbcc4291771de5109bc7131a51d6" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of kirillkushpel/news-explorer-frontend to your account" aria-label="Fork your own copy of kirillkushpel/news-explorer-frontend to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </button></form>
     <a href="/kirillkushpel/news-explorer-frontend/network/members" class="social-count"
@@ -936,9 +936,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/kirillkushpel/news-explorer-frontend/blob/76455f49b331f1b7d78c3713f4ffc2f1645947ab/src/vendor/fonts/roboto-regular-webfont.woff">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/kirillkushpel/news-explorer-frontend/blob/76455f49b331f1b7d78c3713f4ffc2f1645947ab/src/vendor/fonts/robotoslab-bold.woff">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:92df87ed4c15dc847c3382a5a8c873c2 -->
+    <!-- blob contrib key: blob_contributors:v21:7a9bdac27036595a6f22646e9ae1d4c1 -->
       
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-column flex-md-row">
@@ -952,7 +952,7 @@
     <span class="css-truncate-target" data-menu-button>develop-2</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/kirillkushpel/news-explorer-frontend/refs/develop-2/src/vendor/fonts/roboto-regular-webfont.woff?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/kirillkushpel/news-explorer-frontend/refs/develop-2/src/vendor/fonts/robotoslab-bold.woff?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -966,13 +966,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="src/vendor/fonts/roboto-regular-webfont.woff" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="src/vendor/fonts/robotoslab-bold.woff" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/kirillkushpel/news-explorer-frontend/tree/develop-2"><span>news-explorer-frontend</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/kirillkushpel/news-explorer-frontend/tree/develop-2/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor"><span>vendor</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts"><span>fonts</span></a></span><span class="separator">/</span><strong class="final-path">roboto-regular-webfont.woff</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/kirillkushpel/news-explorer-frontend/tree/develop-2"><span>news-explorer-frontend</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/kirillkushpel/news-explorer-frontend/tree/develop-2/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor"><span>vendor</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/kirillkushpel/news-explorer-frontend/tree/develop-2/src/vendor/fonts"><span>fonts</span></a></span><span class="separator">/</span><strong class="final-path">robotoslab-bold.woff</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -982,7 +982,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="src/vendor/fonts/roboto-regular-webfont.woff" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="src/vendor/fonts/robotoslab-bold.woff" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -992,7 +992,7 @@
 
 
 
-    <include-fragment src="/kirillkushpel/news-explorer-frontend/contributors/develop-2/src/vendor/fonts/roboto-regular-webfont.woff" class="Box Box--condensed commit-loader">
+    <include-fragment src="/kirillkushpel/news-explorer-frontend/contributors/develop-2/src/vendor/fonts/robotoslab-bold.woff" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -1011,26 +1011,26 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-    35.2 KB
+    97.2 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/kirillkushpel/news-explorer-frontend/raw/develop-2/src/vendor/fonts/roboto-regular-webfont.woff">Download</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/kirillkushpel/news-explorer-frontend/commits/develop-2/src/vendor/fonts/roboto-regular-webfont.woff">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/kirillkushpel/news-explorer-frontend/raw/develop-2/src/vendor/fonts/robotoslab-bold.woff">Download</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/kirillkushpel/news-explorer-frontend/commits/develop-2/src/vendor/fonts/robotoslab-bold.woff">History</a>
     </div>
 
 
     <div>
             <a class="btn-octicon tooltipped tooltipped-nw hide-sm"
-               href="x-github-client://openRepo/https://github.com/kirillkushpel/news-explorer-frontend?branch=develop-2&amp;filepath=src%2Fvendor%2Ffonts%2Froboto-regular-webfont.woff"
+               href="x-github-client://openRepo/https://github.com/kirillkushpel/news-explorer-frontend?branch=develop-2&amp;filepath=src%2Fvendor%2Ffonts%2Frobotoslab-bold.woff"
                aria-label="Open this file in GitHub Desktop"
                data-ga-click="Repository, open with desktop, type:windows">
                 <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
             </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/kirillkushpel/news-explorer-frontend/delete/develop-2/src/vendor/fonts/roboto-regular-webfont.woff" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="usJiKT667Gnx60BIu9S9np7EyFz46/QrrjHLUL+RUz3r1cGOLCo1tZTZounWaJFKH/Gf+kSU9UGBk0YPov7geA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/kirillkushpel/news-explorer-frontend/delete/develop-2/src/vendor/fonts/robotoslab-bold.woff" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xy8xj1p86c5HUvDfyhQ4nBwgUiUKeyaGvUpSVB5kpYSS7R5M/YBzz79pcb2Xatu5cGWEUoit87t8pYCJ5pzamQ==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1046,7 +1046,7 @@
 
   <div itemprop="text" class="Box-body p-0 blob-wrapper data type-text ">
       <div class="text-center p-3">
-          <a href="/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/roboto-regular-webfont.woff?raw=true">View raw</a>
+          <a href="/kirillkushpel/news-explorer-frontend/blob/develop-2/src/vendor/fonts/robotoslab-bold.woff?raw=true">View raw</a>
       </div>
   </div>
 
