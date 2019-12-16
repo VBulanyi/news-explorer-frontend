@@ -1,0 +1,10 @@
+.popup__reg_succeeded {
+  justify-content: flex-start;
+  display: flex;
+  margin-top: 16px;
+  font-size: 0.875rem;
+  width: 100%;
+  text-align: center;
+  color: black;
+  align-items: center;
+}

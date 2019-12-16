@@ -1,0 +1,13 @@
+.popup__content_succeeded {
+  display: flex;
+  min-height: 182px;
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 34px 36px;
+
+}

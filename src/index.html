@@ -9,6 +9,7 @@
   <meta name="description" content="Diploma project">
   <title>News Explorer</title>
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  <link rel="icon" href="<%= require('./images/favicon.png')%>" type="image/png">
 </head>
 
 <body>
@@ -36,9 +37,10 @@
           </form>
         </div>
         <div class="popup-form">
+          <!-- Форма входа -->
           <div class="popup popupAdd">
             <div class="popup__content">
-              <img id="formAddClose" src="<%=require('./images/close.svg')%>" alt="" class="popup__close">
+              <img id="formAddClose" src="<%=require('./images/close.svg')%>" alt="закрытие формы" class="popup__close">
               <h3 class="popup__title">Вход</h3>
               <form id="formAdd" class="popup__form" name="new">
                 <span class="popup__tip">Email</span>
@@ -52,9 +54,43 @@
                 <button id="addSbmBtn" type="submit" class="popup__button">Войти</button>
               </form>
               <div class="popup__reg">
-                <span>или </span><a class="popup__reg-link" href="">Зарегистрироваться</a></div>
+                <span class="popup__reg-sp">или </span><a class="popup__reg-link" href="">Зарегистрироваться</a></div>
             </div>
           </div>
+          <!-- Форма регистрации -->
+          <div class="popup popupReg">
+            <div class="popup__content">
+              <img id="formAddClose" src="<%=require('./images/close.svg')%>" alt="закрытие формы" class="popup__close">
+              <h3 class="popup__title">Регистрация</h3>
+              <form id="formAdd" class="popup__form" name="new">
+                <span class="popup__tip">Email</span>
+                <input required id="formAddName" type="email" name="name" class="popup__input popup__input_type_name"
+                  placeholder="Введите почту">
+                <span class="popup__input-name-err popup__err" id="errorAddName" aria-live="polite">Неправильный формат
+                  email</span>
+                <span class="popup__tip">Пароль</span>
+                <input id="formAddUrl" required type="password" minlength="8" name="pass"
+                  class="popup__input popup__input_type_link-url" placeholder="Введите пароль">
+                  <span class="popup__input-pass-err popup__err" id="errorAddName" aria-live="polite">Минимум 8 символов</span>
+                <span class="popup__tip">Имя</span>
+                <input id="formAddName" required type="text" minlength="2" name="link"
+                  class="popup__input popup__input_type_link-url" placeholder="Введите имя">
+                  <span class="popup__input-pass-err popup__err" id="errorAddName" aria-live="polite">Минимум 2 символа</span>
+                <button id="addSbmBtn" type="submit" class="popup__button">Войти</button>
+              </form>
+              <div class="popup__reg">
+                <span class="popup__reg-sp">или </span><a class="popup__reg-link" href="">Войти</a></div>
+            </div>
+          </div>
+          <!-- Успешная регистрация -->
+          <div class="popup popupReg">
+              <div class="popup__content_succeeded">
+                <img id="formAddClose" src="<%=require('./images/close.svg')%>" alt="закрытие формы" class="popup__close">
+                <h3 class="popup__title">Пользователь успешно зарегистрирован!</h3>
+                <div class="popup__reg_succeeded">
+                </span><a class="popup__reg-link" href="">Выполнить вход</a></div>
+              </div>
+            </div>
         </div>
       </header>
       <main>

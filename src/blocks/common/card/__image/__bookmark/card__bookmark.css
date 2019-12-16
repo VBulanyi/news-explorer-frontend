@@ -21,16 +21,16 @@ background-position: 50%;
 .card__bookmark_marked {
   background-image: url(../../../../../images/bookmarks/bookmark-marked.svg);
   position: absolute;
-top: 24px;
-right: 24px;
-width: 40px;
-height: 40px;
-background-repeat: no-repeat;
-cursor: pointer;
-z-index: 2;
-border-radius: 8px;
-background-color: white;
-background-position: 50%;
+  top: 24px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 8px;
+  background-color: white;
+  background-position: 50%;
 }
 
 
