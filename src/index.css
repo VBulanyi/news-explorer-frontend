@@ -26,3 +26,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+input:focus {
+  color: #2f71e5;
+}

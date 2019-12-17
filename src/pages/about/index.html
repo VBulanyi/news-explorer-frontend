@@ -75,6 +75,11 @@
     <section class="about">
       <div class="about__wrapper">
         <div class="about__photo">
+          <picture>
+            <source media="(max-width: 1023px)" srcset="../<%= require('../../images/avatar-300.png')%>" >
+            <source media="(max-width: 1600px)" srcset="../<%= require('../../images/avatar-500.png')%>" >
+            <img class="about__img" src="../<%= require('../../images/avatar.png')%>" alt="Фото на аватар">
+          </picture>
         </div>
         <div class="about__content">
           <h2 class="about__title">Об авторе</h2>

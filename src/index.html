@@ -49,8 +49,9 @@
                 <span class="popup__input-name-err popup__err" aria-live="polite">Неправильный формат
                   email</span>
                 <span class="popup__tip">Пароль</span>
-                <input required type="password" minlength="8" name="link"
-                  class="popup__input popup__input_type_link-url" placeholder="Введите пароль">
+                <input required type="password" name="link" minlength="8"
+                  class="popup__input popup__input_type_link-url" placeholder="Введите пароль, минимум 8 символов">
+                  <span class="popup__err" aria-live="polite">Необходимо ввести пароль</span>
                 <button type="submit" class="popup__button">Войти</button>
               </form>
               <div class="popup__reg">
@@ -171,6 +172,11 @@
         <section class="about">
           <div class="about__wrapper">
             <div class="about__photo">
+              <picture>
+                <source media="(max-width: 1023px)" srcset="<%= require('./images/avatar-300.png')%>" >
+                <source media="(max-width: 1600px)" srcset="<%= require('./images/avatar-500.png')%>" >
+                <img class="about__img" src="<%= require('./images/avatar.png')%>" alt="Фото на аватар">
+              </picture>
             </div>
             <div class="about__content">
               <h2 class="about__title">Об авторе</h2>

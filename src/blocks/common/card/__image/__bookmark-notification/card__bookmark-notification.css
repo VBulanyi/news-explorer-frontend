@@ -4,11 +4,10 @@
 .card__bookmark-notification {
     position: absolute;
     display: flex;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.625rem;
-
     background-color: white;
     margin: 0;
     border-radius: 10px;

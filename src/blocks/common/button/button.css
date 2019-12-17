@@ -1,7 +1,7 @@
 .button {
   display: flex;
   align-items: center;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.12rem;
   padding: 18px 40px;
   border-radius: 100px;
