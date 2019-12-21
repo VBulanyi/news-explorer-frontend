@@ -1,0 +1,18 @@
+@import url(./__content/card__content.css);
+@import url(./__image/card__image.css);
+@import url(./__image/card__image.css);
+@import url(./__source/card__source.css);
+@import url(./__text/card__text.css);
+@import url(./__title.css/card__title.css);
+@import url(./__date/card__date.css);
+
+.card {
+  justify-content: space-between;
+  border-radius: 16px;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+  z-index: 1;
+  background-color: #FFFFFF;
+}
+

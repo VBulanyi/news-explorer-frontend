@@ -1,0 +1,18 @@
+.footer__menu-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.12rem;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__menu-link {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menu-link {
+margin-bottom: 20px;
+  }
+}
+

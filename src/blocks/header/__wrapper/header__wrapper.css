@@ -1,0 +1,24 @@
+@import url(./_about/header__wrapper_about.css);
+
+.header__wrapper {
+  max-width: 600px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__wrapper{
+    max-width: 452px;
+    margin-left: 160px;
+    margin-right: 154px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__wrapper {
+    max-width: 320px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 30px;
+    margin-bottom: 22px;
+    }
+  }

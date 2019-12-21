@@ -1,0 +1,23 @@
+@import url(./_mobile/menu__column-links_mobile.css);
+
+.menu__column-links {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+font-weight: 500;
+margin-right: 104px;
+}
+
+@media screen and (max-width: 1023px) {
+  .menu__column-links {
+    margin-right: 40px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+  .menu__column-links {
+    display: none;
+    }
+  }

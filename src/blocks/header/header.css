@@ -1,0 +1,34 @@
+@import url(./__wrapper/header__wrapper.css);
+@import url(./__bar/header__bar.css);
+@import url(./__button/header__search-button.css);
+@import url(./__description/header__description.css);
+@import url(./__input/header__input.css);
+@import url(./__title/header__title.css);
+@import url(./_white/header_white.css);
+@import url(./__about/header__about.css);
+
+.header {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  color: #FFFFFF;
+  background-image: url(../../images/background.png);
+  min-height: 576px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+
+}
+
+@media screen and (max-width: 1023px) {
+  .header{
+    min-height: 466px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    min-height: 536px;
+  }
+}

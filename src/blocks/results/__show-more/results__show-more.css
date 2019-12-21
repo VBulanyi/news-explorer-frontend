@@ -1,0 +1,25 @@
+.results__show-more {
+  margin: 80px auto 64px;
+  background-color: #fff;
+  color: #1A1B22;
+  font-weight: 500;
+  line-height: 133%;
+}
+
+.results__show-more:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 1023px) {
+  .results__show-more {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .results__show-more {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+}

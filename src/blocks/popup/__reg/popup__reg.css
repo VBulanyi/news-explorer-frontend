@@ -1,0 +1,14 @@
+@import url(./__reg-link/popup__reg-link.css);
+@import url(./__reg-sp/popup__reg-sp.css);
+@import url(./_succeeded/popup__reg__succeeded.css);
+
+.popup__reg {
+display: flex;
+margin-top: 16px;
+font-size: 0.875rem;
+width: 100%;
+text-align: center;
+color: black;
+align-items: center;
+justify-content: center;
+}

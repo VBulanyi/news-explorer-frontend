@@ -1,0 +1,33 @@
+@import url(./__title-container/slider__title-container.css);
+@import url(./swiper-wrapper/swiper-wrapper.css);
+@import url(./swiper-button-next/swiper-button-next.css);
+@import url(./swiper-button-prev/swiper-button-prev.css);
+@import url(./swiper-pagination/swiper-pagination.css);
+
+.slider {
+  position: relative;
+  background-color: #f5f6f7;
+  box-sizing: border-box;
+  padding: 72px 104px 62px 104px;
+}
+
+@media screen and (max-width: 1023px) {
+  .slider {
+    padding: 40px 40px 30px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider {
+    padding: 32px 16px 32px 16px;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .slider__title {
+    font-size: 1.875rem;
+    padding-top: 0;
+    }
+  }

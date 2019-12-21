@@ -1,0 +1,25 @@
+@import url(./__input-name-err/popup__input-name-err.css);
+
+.popup__input {
+  width: 100%;
+  height: 47px;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  font-size: 0.875rem;
+  line-height: 17px;
+  box-sizing: border-box;
+  padding-bottom: 24px;
+  color: #000;
+}
+
+.popup__input:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Сообщение об ошибке эмэйл в форме */
+
+.popup__input:invalid:not(:placeholder-shown) + .popup__err {
+	display: block;
+}
+
+

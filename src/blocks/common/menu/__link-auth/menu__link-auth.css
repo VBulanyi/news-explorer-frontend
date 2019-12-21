@@ -1,0 +1,15 @@
+@import url(./_black/menu__link-auth_black.css);
+
+.menu__link-auth{
+  margin-right: 0px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 1023px) {
+  .menu__link-auth {
+    padding: 6px;
+  }
+}
+

@@ -1,0 +1,17 @@
+@import url(./__title/slider__title.css);
+@import url(./__git-link/slider__git-link.css);
+
+.slider__title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+@media screen and (max-width: 767px) {
+  .slider__title-container {
+    margin-bottom: 16px;
+    margin-top: 32px;
+    max-width: 60%;
+    }
+  }

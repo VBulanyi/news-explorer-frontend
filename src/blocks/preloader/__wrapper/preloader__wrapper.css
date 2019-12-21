@@ -1,0 +1,18 @@
+.preloader__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-box-align: start;
+  align-items: center;
+  max-width: 300px;
+  }
+
+.preloader__wrapper_search {
+  display: none;
+  margin-top: 80px;
+}
+
+.preloader__wrapper_not-found {
+  display: none;
+  margin-top: 86px;
+}

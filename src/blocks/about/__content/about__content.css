@@ -1,0 +1,7 @@
+@import url(./__text/about__text.css);
+@import url(./__title/about__title.css);
+
+.about__content {
+  width: 100%;
+}
+

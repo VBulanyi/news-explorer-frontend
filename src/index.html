@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Vladimir Bulanyi">
+  <meta name="description" content="Diploma project">
+  <title>News Explorer</title>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  <link rel="icon" href="<%= require('./images/favicon.png')%>" type="image/png">
+</head>
+
+<body>
+  <div class="page">
+    <div class="content">
+      <header class="header">
+        <nav class="menu">
+          <a class="menu__logo" href="./">NewsExplorer</a>
+          <div class="menu__mobile" id="mobile-menu"></div>
+          <ul class="menu__column-links">
+            <li class="menu__item menu__item_active"><a class="menu__column-link menu__column-link_active"
+                href="./">Главная</a></li>
+            <li class="menu__item"><a class="menu__column-link" href="./about/">О проекте</a></li>
+            <li class="menu__item menu__item_hidden"><a class="menu__column-link menu__column-link_hidden"
+                href="./news/">Сохранённые статьи</a></li>
+            <li class="menu__item"><a class="menu__column-link  menu__link-auth" href="">Авторизоваться</a></li>
+          </ul>
+        </nav>
+        <div class="header__wrapper">
+          <h1 class="header__title title">Что в мире творится?</h1>
+          <p class="header__description description">Находите самые свежие статьи на любую тему и сохраняйте в своём
+            личном кабинете.</p>
+          <form novalidate class="header__bar" name="news-search" method="POST">
+            <input class="header__input" type="text" placeholder="Природа">
+            <button class="button header-search__button">Искать</button>
+          </form>
+        </div>
+        <div class="popup-form">
+          <!-- Форма входа -->
+          <div class="popup popupAdd">
+            <div class="popup__content">
+              <img src="<%=require('./images/close.svg')%>" alt="закрытие формы" class="popup__close">
+              <h3 class="popup__title">Вход</h3>
+              <form class="popup__form" name="new">
+                <span class="popup__tip">Email</span>
+                <input required type="email" name="name" class="popup__input popup__input_type_name"
+                  placeholder="Введите почту">
+                <span class="popup__input-name-err popup__err" aria-live="polite">Неправильный формат
+                  email</span>
+                <span class="popup__tip">Пароль</span>
+                <input required type="password" name="link" minlength="8"
+                  class="popup__input popup__input_type_link-url" placeholder="Введите пароль, минимум 8 символов">
+                <span class="popup__err" aria-live="polite">Необходимо ввести пароль</span>
+                <button type="submit" class="popup__button">Войти</button>
+              </form>
+              <div class="popup__reg">
+                <span class="popup__reg-sp">или </span><a class="popup__reg-link" href="">Зарегистрироваться</a></div>
+            </div>
+          </div>
+          <!-- Форма регистрации -->
+          <div class="popup popupReg">
+            <div class="popup__content">
+              <img src="<%=require('./images/close.svg')%>" alt="закрытие формы" class="popup__close">
+              <h3 class="popup__title">Регистрация</h3>
+              <form class="popup__form" name="new">
+                <span class="popup__tip">Email</span>
+                <input required type="email" name="name" class="popup__input popup__input_type_name"
+                  placeholder="Введите почту">
+                <span class="popup__input-name-err popup__err" aria-live="polite">Неправильный формат
+                  email</span>
+                <span class="popup__tip">Пароль</span>
+                <input required type="password" minlength="8" name="pass"
+                  class="popup__input popup__input_type_link-url" placeholder="Введите пароль">
+                <span class="popup__input-pass-err popup__err" aria-live="polite">Минимум 8 символов</span>
+                <span class="popup__tip">Имя</span>
+                <input required type="text" minlength="2" name="link" class="popup__input popup__input_type_link-url"
+                  placeholder="Введите имя">
+                <span class="popup__input-pass-err popup__err" aria-live="polite">Минимум 2 символа</span>
+                <button type="submit" class="popup__button">Войти</button>
+              </form>
+              <div class="popup__reg">
+                <span class="popup__reg-sp">или </span><a class="popup__reg-link" href="">Войти</a></div>
+            </div>
+          </div>
+          <!-- Успешная регистрация -->
+          <div class="popup popupReg">
+            <div class="popup__content_succeeded">
+              <img src="<%=require('./images/close.svg')%>" alt="закрытие формы" class="popup__close">
+              <h3 class="popup__title">Пользователь успешно зарегистрирован!</h3>
+              <div class="popup__reg_succeeded">
+                <a class="popup__reg-link" href="">Выполнить вход</a></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="preloader">
+          <div class="preloader__wrapper preloader__wrapper_search">
+            <i class="preloader__circle"></i>
+            <span class="preloader__search-text">Идет поиск новостей...</span>
+          </div>
+          <div class="preloader__wrapper preloader__wrapper_not-found">
+            <img class="preloader__not-found-img" src="<%= require('./images/not-found.svg')%>"
+              alt="Картинка ничего не найдено">
+            <h3 class="preloader__search-title">Ничего не найдено</h3>
+            <span class="preloader__search-text">К сожалению по вашему запросу
+              ничего не найдено...</span>
+          </div>
+        </section>
+
+        <section class="results">
+          <div class="results__main-container">
+            <h2 class="results__title">Результаты поиска</h2>
+            <div class="results__continer">
+              <div class="card">
+                <div class="card__image">
+                  <div class="card__backgronud"></div>
+                  <div class="card__bookmark"></div>
+                  <span class="card__bookmark-notification card__bookmark-notification_loged-in">Войдите, чтобы
+                    сохранять
+                    статьи</span>
+                </div>
+                <div class="card__content">
+                  <span class="card__date">2 августа, 2019</span>
+                  <h3 class="card__title">Национальное достояние – парки</h3>
+                  <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
+                    складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
+                    приобщиться к природе.</p>
+                  <span class="card__source">ЛЕНТА.РУ</span>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__image">
+                  <div class="card__backgronud"></div>
+                  <div class="card__bookmark"></div>
+                  <span class="card__bookmark-notification card__bookmark-notification_loged-in">Войдите, чтобы
+                    сохранять
+                    статьи</span>
+                </div>
+                <div class="card__content">
+                  <span class="card__date">2 августа, 2019</span>
+                  <h3 class="card__title">Национальное достояние – парки</h3>
+                  <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
+                    складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
+                    приобщиться к природе.</p>
+                  <span class="card__source">ЛЕНТА.РУ</span>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__image">
+                  <div class="card__backgronud"></div>
+                  <div class="card__bookmark_marked"></div>
+                  <span class="card__bookmark-notification card__bookmark-notification_loged-in">Войдите, чтобы
+                    сохранять
+                    статьи</span>
+                </div>
+                <div class="card__content">
+                  <span class="card__date">2 августа, 2019</span>
+                  <h3 class="card__title">Национальное достояние – парки</h3>
+                  <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
+                    складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
+                    приобщиться к природе.</p>
+                  <span class="card__source">ЛЕНТА.РУ</span>
+                </div>
+              </div>
+            </div>
+            <button class="button results__show-more">Показать еще</button>
+          </div>
+        </section>
+
+        <section class="about">
+          <div class="about__wrapper">
+            <div class="about__photo">
+              <picture>
+                <source media="(max-width: 1023px)" srcset="<%= require('./images/avatar-300.png')%>">
+                <source media="(max-width: 1600px)" srcset="<%= require('./images/avatar-500.png')%>">
+                <img class="about__img" src="<%= require('./images/avatar.png')%>" alt="Фото на аватар">
+              </picture>
+            </div>
+            <div class="about__content">
+              <h2 class="about__title">Об авторе</h2>
+              <p class="about__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы
+                занимаетесь, какими технологиями разработки владеете.</p>
+              <p class="about__text">
+                Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь
+                потенциальным заказчикам.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&copy; 2019. Владимир Буланый</p>
+        <nav>
+          <ul class="footer__menu">
+            <li class="footer__menu-link"><a href="./">Главная</a></li>
+            <li class="footer__menu-link"><a href="./about">О проектке</a></li>
+            <li class="footer__menu-link"><a href="https://praktikum.yandex.ru">Яндекс.Практикум</a></li>
+          </ul>
+        </nav>
+        <div class="footer__social">
+          <a class="footer__social-link" href="https://github.com/VBulanyi/">
+            <img src="<%= require('./images/git.svg')%>" alt="GitHub Logo">
+          </a>
+          <a class="footer__social-link" href="https://facebook.com">
+            <img src="<%= require('./images/facebook.svg')%>" alt="Facebook Logo">
+          </a>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+
+</html>

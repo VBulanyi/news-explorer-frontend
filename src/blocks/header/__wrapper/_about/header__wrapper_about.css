@@ -1,0 +1,21 @@
+.header__wrapper.header__wrapper_about {
+margin: 104px;
+max-width: 530px;
+margin-bottom: 0px;
+margin-top: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__wrapper.header__wrapper_about {
+    margin-top: 24px;
+    margin-left: 40px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__wrapper.header__wrapper_about {
+    margin-left: 16px;
+    margin-right: 16px;
+    }
+  }

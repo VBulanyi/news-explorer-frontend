@@ -1,0 +1,15 @@
+.results__continer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .results__continer {
+    grid-template-columns: 1fr;
+  }
+}
+

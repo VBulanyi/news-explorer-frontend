@@ -1,0 +1,18 @@
+.card__bookmark-notification.card__bookmark-notification_loged-in {
+top: 24px;
+right: 72px;
+}
+
+@media screen and (max-width: 1023px) {
+  .card__bookmark-notification_loged-in {
+    top: 8px;
+    right: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__bookmark-notification_loged-in {
+    top: 16px;
+    right: 64px;
+  }
+}

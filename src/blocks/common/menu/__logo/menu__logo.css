@@ -1,0 +1,25 @@
+@import url(./_black/menu__logo_black.css);
+
+.menu__logo {
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-size: 1.25rem;
+  font-weight: 900;
+  line-height: 1;
+  align-self: center;
+  color: #fff;
+  margin-left: 104px;
+}
+
+@media screen and (max-width: 1023px) {
+  .menu__logo {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .menu__logo {
+    margin-left: 16px;
+  }
+}

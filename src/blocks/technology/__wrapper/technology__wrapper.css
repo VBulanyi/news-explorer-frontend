@@ -1,0 +1,18 @@
+.technology__wrapper {
+display: flex;
+flex-direction: row;
+}
+
+@media screen and (max-width: 1023px) {
+  .technology__wrapper {
+    flex-direction: column;
+    max-width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .technology__wrapper {
+
+    }
+  }

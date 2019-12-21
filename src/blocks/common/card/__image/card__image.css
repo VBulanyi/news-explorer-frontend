@@ -1,0 +1,10 @@
+@import url(./__backgronud/card__backgronud.css);
+@import url(./__bookmark-notification/card__bookmark-notification.css);
+@import url(./__bookmark/card__bookmark.css);
+
+.card__image {
+position: relative;
+height: 272px;
+border-radius: 16px 16px 0px 0px;
+z-index: 1;
+}

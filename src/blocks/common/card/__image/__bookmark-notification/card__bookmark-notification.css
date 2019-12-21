@@ -1,0 +1,26 @@
+@import url(./_about/card__bookmark-notification_about.css);
+@import url(./_loged-in/card__bookmark-notification_loged-in.css);
+
+.card__bookmark-notification {
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.625rem;
+    background-color: white;
+    margin: 0;
+    border-radius: 10px;
+    height: 40px;
+    padding: 0 12px 0 12px;
+    color: black;
+    font-size: 0.65rem;
+    font-weight: 900;
+    align-items: center;
+    max-width: 50%;
+    opacity: 1;
+  }
+
+
+
+

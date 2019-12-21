@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.12rem;
+  padding: 18px 40px;
+  border-radius: 100px;
+  color: white;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+  line-height: 1.33;
+  border: 0px;
+  cursor: pointer;
+}
+
+/* .button:hover {
+  background-color: #347eff;
+} */
+
+
+.button:disabled {
+  color: #b6bcbf;
+  background-color: #e6e8eb;
+}

@@ -1,0 +1,8 @@
+@import url(./__auther-email/slider__auther-email.css);
+@import url(./__auther-name/slider__auther-name.css);
+
+.slider__author-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
