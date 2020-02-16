@@ -1,3 +1,20 @@
 .card__bookmark.card__bookmark_trash {
   background-image: url(../../../../../../images/bookmarks/trash.svg);
 }
+
+.card__bookmark.card__bookmark_trash:hover {
+  background-image: url(../../../../../../images/bookmarks/trash-marked.svg);
+}
+
+.card__bookmark.card__bookmark_trash:hover ~ .card__bookmark-notification_loged-in{
+  opacity: 1;
+  transition: 0.3s;
+  z-index: 3;
+}
+
+
+/* .card__bookmark-notification_loged-in {
+  opacity: 1;
+  transition: 0.3s;
+  z-index: 3;
+} */

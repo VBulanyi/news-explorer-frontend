@@ -25,25 +25,30 @@
           <li class="menu__item menu__item_active"><a class="menu__column-link menu__colunm-link_grey"
               href="./">Сохранённые
               статьи</a></li>
-          <li class="menu__item"><a
-              class="menu__column-link menu__colunm-link_black menu__link-auth menu__link-auth_black" href="#">Грета<img class="menu__logout-icon" src="../<%= require('../../images/logout.svg')%>" alt="logout icon"></a></li>
+          <li class="menu__item">
+            <div class="menu__column-link menu__colunm-link_black">
+              <div class="menu__link-auth-container menu__link-auth-container_black">
+                <span class="menu__link-auth"></span>
+                <img class="menu__logout-icon" src="../<%= require('../../images/logout.svg')%>" alt="logout button">
+              </div>
+          </div>
+        </li>
         </ul>
       </nav>
       <div class="header__wrapper header__wrapper_about">
         <span class="header__about">Сохранённые статьи</span>
-        <h2 class="header__title header__title_black header__title_about">Грета, у вас 5 сохранённых статей</h2>
-        <p class="header__description header__description_black">По ключевым словам: <span
-            class="header__description header__description_bold">Природа, Тайг</span> и <span class="header__description header__description_bold">2
-            другим</span></p>
+        <h2 class="header__title header__title_black header__title_about"><span class="header__title-name">Грета</span>, у вас <span class="header__title-count"></span>   сохранённых статей</h2>
+        <p class="header__description header__description_black">По ключевым словам:
+          <span class="header__description header__description-key header__description_bold"></span>
+          <span class="header__description header__description-count header__description_bold"></span></p>
       </div>
-
     </header>
 
     <main class="content">
       <section class="results results_about">
         <div class="results__main-container">
           <div class="results__continer">
-            <div class="card">
+            <!-- <div class="card">
               <div class="card__image">
                 <div class="card__backgronud"><span
                     class="card__bookmark-notification card__bookmark-notification_about">Природа</span></div>
@@ -60,79 +65,7 @@
                   приобщиться к природе.</p>
                 <span class="card__source">ЛЕНТА.РУ</span>
               </div>
-            </div>
-            <div class="card">
-              <div class="card__image">
-                <div class="card__backgronud"><span
-                    class="card__bookmark-notification card__bookmark-notification_about">Природа</span></div>
-                <div class="card__bookmark card__bookmark_trash"></div>
-
-                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Убрать из
-                  сохранённых</span>
-              </div>
-              <div class="card__content">
-                <span class="card__date">2 августа, 2019</span>
-                <h3 class="card__title">Национальное достояние – парки</h3>
-                <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
-                  складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
-                  приобщиться к природе.</p>
-                <span class="card__source">ЛЕНТА.РУ</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card__image">
-                <div class="card__backgronud"><span
-                    class="card__bookmark-notification card__bookmark-notification_about">Природа</span></div>
-                <div class="card__bookmark card__bookmark_trash"></div>
-
-                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Убрать из
-                  сохранённых</span>
-              </div>
-              <div class="card__content">
-                <span class="card__date">2 августа, 2019</span>
-                <h3 class="card__title">Национальное достояние – парки</h3>
-                <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
-                  складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
-                  приобщиться к природе.</p>
-                <span class="card__source">ЛЕНТА.РУ</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card__image">
-                <div class="card__backgronud"><span
-                    class="card__bookmark-notification card__bookmark-notification_about">Природа</span></div>
-                <div class="card__bookmark card__bookmark_trash"></div>
-
-                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Убрать из
-                  сохранённых</span>
-              </div>
-              <div class="card__content">
-                <span class="card__date">2 августа, 2019</span>
-                <h3 class="card__title">Национальное достояние – парки</h3>
-                <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
-                  складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
-                  приобщиться к природе.</p>
-                <span class="card__source">ЛЕНТА.РУ</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card__image">
-                <div class="card__backgronud">
-                  <span class="card__bookmark-notification card__bookmark-notification_about">Природа</span></div>
-                <div class="card__bookmark card__bookmark_trash"></div>
-
-                <span class="card__bookmark-notification card__bookmark-notification_loged-in">Убрать из
-                  сохранённых</span>
-              </div>
-              <div class="card__content">
-                <span class="card__date">2 августа, 2019</span>
-                <h3 class="card__title">Национальное достояние – парки</h3>
-                <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
-                  складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
-                  приобщиться к природе.</p>
-                <span class="card__source">ЛЕНТА.РУ</span>
-              </div>
-            </div>
+            </div>-->
           </div>
         </div>
       </section>

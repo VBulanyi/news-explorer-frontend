@@ -11,13 +11,3 @@
   border: 0px;
   cursor: pointer;
 }
-
-/* .button:hover {
-  background-color: #347eff;
-} */
-
-
-.button:disabled {
-  color: #b6bcbf;
-  background-color: #e6e8eb;
-}

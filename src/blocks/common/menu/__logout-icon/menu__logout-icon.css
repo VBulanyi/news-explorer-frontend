@@ -1,4 +1,5 @@
 .menu__logout-icon {
+  display: none;
   margin-left: 10px;
   margin-bottom: -5px;
 }
