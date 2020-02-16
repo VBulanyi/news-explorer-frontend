@@ -8,7 +8,6 @@ const webpack = require('webpack');
 module.exports = {
   entry: {
     main: './src/index.js',
-    about: './src/pages/about/index.js',
     news: './src/pages/news/index.js',
   },
   output: {
