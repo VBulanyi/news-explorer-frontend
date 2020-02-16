@@ -101,12 +101,6 @@ module.exports = {
       template: './src/pages/news/index.html',
       filename: 'news/index.html',
     }),
-    new HtmlWebpackPlugin({
-      inject: false,
-      hash: true,
-      template: './src/pages/about/index.html',
-      filename: 'about/index.html',
-    }),
 
     new WebpackMd5Hash(),
     new webpack.DefinePlugin({
