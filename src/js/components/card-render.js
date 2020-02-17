@@ -65,12 +65,12 @@ export default class CardRender {
     const isLiked = JSON.parse(window.localStorage.getItem('isLiked')).data;
     for (let i = 0; i < arr.length; i += 1) {
       for (let j = 0; j < isLiked.length; j += 1) {
-        if (arr[i] === isLiked[j]) {
+        if (arr[i].link === isLiked[j].link) {
           // eslint-disable-next-line no-param-reassign
           arr[i].liked = 'card__bookmark_marked';
         }
       }
-    }
+    } return arr;
   }
 
   render(array) {
@@ -79,11 +79,9 @@ export default class CardRender {
     window.localStorage.setItem('searchResults', JSON.stringify(this.array));
     const arr = this.array.splice(0, 3);
     window.localStorage.setItem('array', JSON.stringify(this.array));
-
-    this._checkIsLiked(array);
-
+    this._checkIsLiked(arr);
     for (let i = 0; i < arr.length; i += 1) {
-      const card = new Card(arr[i].date, arr[i].image, arr[i].keyword, arr[i].link, arr[i].source, arr[i].title, arr[i].text, arr[i].liked);
+      const card = new Card(arr[i].date, arr[i].image, arr[i].keyword, arr[i].link, arr[i].source, arr[i].title, arr[i].text, arr[i].id, arr[i].liked);
       html += card.create();
     }
     return this.container.insertAdjacentHTML('beforeend', html);

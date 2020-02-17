@@ -146,6 +146,12 @@ export default class Api {
         if (!res.ok) throw new Error(`Ошибка сохранения карточки ${res.status}`);
         return res.json();
       })
+      // .then((res) => {
+      //   const arr = JSON.parse(window.localStorage.getItem('searchResults'));
+      //   arr.push(res.data);
+      //   window.localStorage.setItem('isLiked', JSON.stringify(arr));
+      //   return res;
+      // })
       .then((res) => res._id)
       .catch((err) => {
         throw new Error(err.message);

@@ -8,7 +8,6 @@ const parm = {
   git: 'https://api.github.com/repos/VBulanyi/news-explorer-frontend/commits',
   apiUrl: 'https://newsapi.org/v2/everything?sortBy=popularity&apiKey=d5db312b866b40439eb2b70875053a9d&language=ru&pageSize=100',
   maxGitCommits: 15,
-  // apiUrl: 'https://newsapi.org/v2/everything?sortBy=popularity&apiKey=d5db312b866b40439eb2b70875053a9d',
   apiBackUrl: 'https://api.news2explorer.tk/',
 };
 
@@ -32,6 +31,3 @@ const cardMarkup = `            <div class="card">
 </div>`;
 
 export default { parm, cardMarkup };
-
-
-// d5db312b866b40439eb2b70875053a9d

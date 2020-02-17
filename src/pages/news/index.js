@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import '../../vendor/normalize.css';
 import './index.css';
 import parm from '../../js/constants/parm';

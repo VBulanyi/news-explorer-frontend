@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-underscore-dangle */
 import './index.css';
 import { signup, signin } from './js/constants/consts';
 import PopupRender from './js/components/popupRender';
@@ -95,16 +97,29 @@ function formsCall(e) {
 }
 
 
-// Сохранение статьи в избранных
+// Сохранение у удаление статьи в избранных
 document.addEventListener('click', (e) => {
-  if (e.target.classList.contains('card__bookmark_like')) {
-    const link = e.target.closest('.card').querySelector('.card__link').getAttribute('href');
+  const link = e.target.closest('.card').querySelector('.card__link').getAttribute('href');
+  if (e.target.classList.contains('card__bookmark_marked')) {
+    e.target.classList.remove('card__bookmark_marked');
+    const savedArticles = JSON.parse(window.localStorage.getItem('isLiked')).data;
+    for (let i = 0; i < savedArticles.length; i += 1) {
+      if (savedArticles[i].link === link) {
+        const id = savedArticles[i]._id;
+        console.log(id);
+        api.deleteArticle(id);
+        break;
+      }
+    }
+  } else if (e.target.classList.contains('card__bookmark_like') && !e.target.classList.contains('card__bookmark_marked')) {
     const arr = JSON.parse(window.localStorage.getItem('searchResults'));
     const res = arr.find((card) => card.link === link);
     e.target.classList.add('card__bookmark_marked');
     api.saveArticle(res);
+    api.getAllArticles();
   }
 });
+
 
 // Отправка заброса к серверу NEWS API и отрисовка карточек
 function print(e) {
@@ -149,6 +164,6 @@ popupForm.addEventListener('click', formsCall);
 
 mobileMenuIcon.addEventListener('click', () => {
 
-})
+});
 
 api.getUser();

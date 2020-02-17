@@ -19,6 +19,7 @@ export default class ApiNews {
     const dateFrom = `${dateSearchFrom.getFullYear()}-${dateSearchFrom.getMonth() + 1}-${dateSearchFrom.getDate()}`;
     const dateTo = `${dateNow.getFullYear()}-${dateNow.getMonth() + 1}-${dateNow.getDate()}`;
     const url = `${this.apiUrl}&q=${query}&from=${dateFrom}&to=${dateTo}`;
+    // eslint-disable-next-line no-undef
     return fetch(url)
       .then((res) => {
         preloader.style.display = "flex";
@@ -60,6 +61,7 @@ export default class ApiNews {
             render.renderMore();
           });
         }
+        return news;
       })
       .catch((err) => {
         throw new Error(err.message);
