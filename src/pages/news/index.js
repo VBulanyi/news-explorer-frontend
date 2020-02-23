@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import '../../vendor/normalize.css';
 import './index.css';
-import parm from '../../js/constants/parm';
+import { parm } from '../../js/constants/parm';
 import CardRender from '../../js/components/card-render';
 import Api from '../../js/api/api';
 import Header from '../../js/components/header';
@@ -16,7 +16,7 @@ const container = document.querySelector('.results__continer');
 
 const headerCallback = new Header(savedArticlesLink, logoutIcon, authorisationLink);
 const callback = new CardRender(container);
-const api = new Api(parm.parm.apiBackUrl, headerCallback, callback);
+const api = new Api(parm.apiBackUrl, headerCallback, callback);
 
 callback.renderName();
 api.getAllArticles();

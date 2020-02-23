@@ -30,4 +30,12 @@ const cardMarkup = `            <div class="card">
 </div>
 </div>`;
 
-export default { parm, cardMarkup };
+function loginStatus() {
+  try {
+    // eslint-disable-next-line no-undef
+    return JSON.parse(window.localStorage.getItem('isLogedIn'));
+  } catch (err) {
+    throw new Error(err.message);
+  }
+}
+export { parm, cardMarkup, loginStatus };

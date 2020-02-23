@@ -5,6 +5,7 @@
 /* eslint-disable func-names */
 /* eslint-disable no-underscore-dangle */
 import Card from './card';
+import { loginStatus } from '../constants/parm';
 
 const results = document.querySelector('.results');
 
@@ -21,8 +22,12 @@ export default class CardRender {
   }
 
   renderMore() {
-    const arr = window.localStorage.getItem('array');
-    this.render(JSON.parse(arr));
+    try {
+      const arr = window.localStorage.getItem('array');
+      this.render(JSON.parse(arr));
+    } catch (err) {
+      throw new Error(err.message);
+    }
   }
 
   renderSavedArticles(arr) {
@@ -32,7 +37,7 @@ export default class CardRender {
       // eslint-disable-next-line no-underscore-dangle
       const card = new Card(arr[i]._id, arr[i].date, arr[i].image, arr[i].keyword, arr[i].link, arr[i].source, arr[i].title, arr[i].text);
       html += card.render();
-      this._renderSubtitle(arr);
+      this.renderSubtitle(arr);
     }
 
     return this.container.insertAdjacentHTML('beforeend', html);
@@ -40,11 +45,15 @@ export default class CardRender {
 
   renderName() {
     const name = document.querySelector('.header__title-name');
-    const userName = window.localStorage.getItem('userName');
-    name.textContent = JSON.parse(userName);
+    try {
+      const userName = window.localStorage.getItem('userName');
+      name.textContent = JSON.parse(userName);
+    } catch (err) {
+      throw new Error(err.message);
+    }
   }
 
-  _renderSubtitle(arr) {
+  renderSubtitle(arr) {
     const count = document.querySelector('.header__title-count');
     const key = document.querySelector('.header__description-key');
     const otherCount = document.querySelector('.header__description-count');
@@ -56,15 +65,22 @@ export default class CardRender {
     });
     this.renderName();
     count.textContent = keyWordList.length;
+    key.textContent = `${uniqueKeyWordList[0]}, ${uniqueKeyWordList[1]}`;
+
     if (uniqueKeyWordList.length > 2) {
       key.textContent = `${uniqueKeyWordList[0]}, ${uniqueKeyWordList[1]}`;
       otherCount.textContent = `и ${uniqueKeyWordList.length - 2} другим`;
-    }
-    if (uniqueKeyWordList.length > 1 && uniqueKeyWordList.length < 2) {
+    } if (uniqueKeyWordList.length > 1 && uniqueKeyWordList.length < 2) {
       key.textContent = `${uniqueKeyWordList[0]}, ${uniqueKeyWordList[1]}`;
-    } else (key.textContent = `${uniqueKeyWordList[0]}`);
+    } if (uniqueKeyWordList.length === 1) {
+      key.textContent = `${uniqueKeyWordList[0]}`;
+    }
+    if (uniqueKeyWordList.length === 0) {
+      key.textContent = `${''}`;
+    }
   }
 
+  // eslint-disable-next-line consistent-return
   _checkIsLiked(arr) {
     try {
       const isLiked = JSON.parse(window.localStorage.getItem('isLiked'));
@@ -78,38 +94,31 @@ export default class CardRender {
           }
         } return arr;
       }
-      if (!isLiked) {
-        console.log('Нет сохранённых статей');
-      }
     } catch (err) {
       throw new Error(err.message);
     }
   }
 
-  // _checkIsLiked() {
-  //   try {
-  //     const isLiked = JSON.parse(window.localStorage.getItem('isLiked')).data;
-  //     if (isLiked) {
-  //       console.log('yes');
-  //     }
-  //     if (!isLiked) {
-  //       console.log('no');
-  //     }
-  //   } catch (err) {
-  //     throw new Error(err.message);
-  //   }
-  // }
-
   render(array) {
     this.array = array;
     let html = '';
-    window.localStorage.setItem('searchResults', JSON.stringify(this.array));
+    try {
+      window.localStorage.setItem('searchResults', JSON.stringify(this.array));
+    } catch (err) {
+      throw new Error(err.message);
+    }
     const arr = this.array.splice(0, 3);
-    window.localStorage.setItem('array', JSON.stringify(this.array));
+    try {
+      window.localStorage.setItem('array', JSON.stringify(this.array));
+    } catch (err) {
+      throw new Error(err.message);
+    }
     this._checkIsLiked(arr);
     for (let i = 0; i < arr.length; i += 1) {
       const card = new Card('', arr[i].date, arr[i].image, arr[i].keyword, arr[i].link, arr[i].source, arr[i].title, arr[i].text, arr[i].liked);
-      html += card.create();
+      if (loginStatus() === true) {
+        html += card.logedIn();
+      } else html += card.create();
     }
     return this.container.insertAdjacentHTML('beforeend', html);
   }

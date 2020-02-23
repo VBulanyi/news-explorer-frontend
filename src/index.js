@@ -6,7 +6,7 @@ import PopupRender from './js/components/popupRender';
 import Api from './js/api/api';
 import ApiNews from './js/api/apiNews';
 import Header from './js/components/header';
-import parm from './js/constants/parm';
+import { parm, loginStatus } from './js/constants/parm';
 import CardRender from './js/components/card-render';
 
 const popupForm = document.querySelector('.popup-form');
@@ -18,12 +18,11 @@ const searchButton = document.querySelector('.header-search__button');
 const authorisationLink = document.querySelector('.menu__link-auth');
 const searchForm = document.forms.search;
 const savedArticlesLink = document.getElementById('stored-articles');
-// const savedArticlesLink = document.querySelector('.menu__item_stored-articles');
 const logoutIcon = document.querySelector('.menu__logout-icon');
 const mobileMenuIcon = document.querySelector('.menu__mobile');
 const popupRender = new PopupRender(container);
 const headerCallback = new Header(savedArticlesLink, logoutIcon, authorisationLink);
-const api = new Api(parm.parm.apiBackUrl, headerCallback);
+const api = new Api(parm.apiBackUrl, headerCallback);
 
 function popupClose(e) {
   if (
@@ -104,34 +103,41 @@ function likeButton() {
     if (e.target.classList.contains('card__bookmark_marked')) {
       const link = e.target.closest('.card').querySelector('.card__link').getAttribute('href');
       e.target.classList.remove('card__bookmark_marked');
-      const savedArticles = JSON.parse(window.localStorage.getItem('isLiked'));
-      for (let i = 0; i < savedArticles.length; i += 1) {
-        if (savedArticles[i].link === link) {
-          const id = savedArticles[i]._id;
-          api.deleteArticle(id);
-          api.checkLiked();
-          break;
+      try {
+        const savedArticles = JSON.parse(window.localStorage.getItem('isLiked'));
+        for (let i = 0; i < savedArticles.length; i += 1) {
+          if (savedArticles[i].link === link) {
+            const id = savedArticles[i]._id;
+            api.deleteArticle(id);
+            api.getAllArticles();
+            break;
+          }
         }
+      } catch (err) {
+        throw new Error(err.message);
       }
     } else if (e.target.classList.contains('card__bookmark_like') && !e.target.classList.contains('card__bookmark_marked')) {
       const link = e.target.closest('.card').querySelector('.card__link').getAttribute('href');
-      const arr = JSON.parse(window.localStorage.getItem('searchResults'));
-      const res = arr.find((card) => card.link === link);
-      e.target.classList.add('card__bookmark_marked');
-      api.saveArticle(res);
-      api.checkLiked();
+      try {
+        const arr = JSON.parse(window.localStorage.getItem('searchResults'));
+        const res = arr.find((card) => card.link === link);
+        e.target.classList.add('card__bookmark_marked');
+        api.saveArticle(res);
+      } catch (err) {
+        throw new Error(err.message);
+      }
+      api.getAllArticles();
     }
   });
 }
 
-function loginStatus() {
+if (authorisationLink === 'Авторизоваться') {
   try {
-    return JSON.parse(window.localStorage.getItem('isLogedIn'));
+    window.localStorage.setItem('isLogedIn', JSON.stringify(false));
   } catch (err) {
     throw new Error(err.message);
   }
 }
-
 
 // Отправка заброса к серверу NEWS API и отрисовка карточек
 function print(e) {
@@ -139,7 +145,7 @@ function print(e) {
   const req = searchForm.elements.query.value;
   const apiNewsCallback = new CardRender(resultsContiner);
   apiNewsCallback.clearContainer();
-  const search = new ApiNews(parm.parm.apiUrl, apiNewsCallback);
+  const search = new ApiNews(parm.apiUrl, apiNewsCallback);
   if (loginStatus() === true) {
     api.getAllArticles();
   }

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable arrow-parens */
 /* eslint-disable quotes */
 /* eslint-disable no-undef */
@@ -44,8 +45,9 @@ export default class Api {
           window.localStorage.setItem('isLogedIn', JSON.stringify(result.isLogedIn));
         } catch (err) {
           throw new Error(err.message);
-        }
+        } return result;
       })
+
       .catch((err) => {
         throw new Error(err.message);
       });
@@ -116,7 +118,8 @@ export default class Api {
         return res;
       })
       .then((res) => {
-        location.href='../';
+        // eslint-disable-next-line no-restricted-globals
+        location.href = '../';
       })
       .catch((e) => {
         throw new Error(e.message);
@@ -162,9 +165,13 @@ export default class Api {
         return res.json();
       })
       .then((res) => {
-        const arr = JSON.parse(window.localStorage.getItem('searchResults'));
-        arr.push(res.data);
-        window.localStorage.setItem('isLiked', JSON.stringify(arr));
+        try {
+          const arr = JSON.parse(window.localStorage.getItem('searchResults'));
+          arr.push(res.data);
+          window.localStorage.setItem('isLiked', JSON.stringify(arr));
+        } catch (err) {
+          throw new Error(err.message);
+        }
         return res;
       })
       .then((res) => res._id)
@@ -185,8 +192,10 @@ export default class Api {
       })
       .then((res) => {
         if (!res.ok) {
-          window.localStorage.setItem('isLiked', JSON.stringify(''));
-          throw new Error(`Ошибка чтения карточек ${res.status}`);
+          try {
+            window.localStorage.setItem('isLiked', JSON.stringify(''));
+            throw new Error(`Ошибка чтения карточек ${res.status}`);
+          } catch (err) { throw new Error(err.message); }
         }
         return res.json();
       })
@@ -196,14 +205,6 @@ export default class Api {
         } catch (err) { throw new Error(err.message); }
         return data;
       })
-      // .then((data) => {
-      //   const render = this.callback;
-      //   if (!data.length > 0) {
-      //     console.log('нет сохранённых карточек');
-      //   } else {
-      //     render.renderSavedArticles(data.data);
-      //   }
-      // })
       .then((data) => {
         const render = this.callback;
         render.renderSavedArticles(data.data);
@@ -213,7 +214,7 @@ export default class Api {
       });
   }
 
-  async deleteArticle(id) {
+  deleteArticle(id) {
     return fetch(`${this.url}articles/${id}`,
       {
         method: 'DELETE',
@@ -231,32 +232,12 @@ export default class Api {
         document.getElementById(res._id).remove();
         return res;
       })
-      .catch((err) => {
-        throw new Error(err.message);
-      });
-  }
-
-  async checkLiked() {
-    return fetch(`${this.url}articles/`,
-      {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        mode: 'cors',
-        credentials: 'include',
-      })
       .then((res) => {
-        if (!res.ok) {
-          window.localStorage.setItem('isLiked', JSON.stringify(''));
-          throw new Error(`Ошибка чтения карточек ${res.status}`);
-        }
-        return res.json();
-      })
-      .then((data) => {
-        console.log(data.data);
+        this.getAllArticles();
         try {
-          window.localStorage.setItem('isLiked', JSON.stringify(data.data));
+          const likeArr = JSON.parse(window.localStorage.getItem('isLiked'));
+          const render = this.callback;
+          render.renderSubtitle(likeArr);
         } catch (err) { throw new Error(err.message); }
       })
       .catch((err) => {

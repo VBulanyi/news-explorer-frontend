@@ -28,6 +28,21 @@ export default class Card {
 </div>`;
   }
 
+  logedIn() {
+    return `<div class="card">
+  <div class="card__image">
+    <div class="card__backgronud"  style="background-image: url('${this.image}')"></div>
+    <div class="card__bookmark card__bookmark_like ${this.liked}"></div>
+  </div>
+  <div class="card__content">
+    <span class="card__date">${this.date}</span>
+    <a class="card__link" href="${this.link}" target="_blank"><h3 class="card__title">${this.title}</h3></a>
+    <p class="card__text">${this.text}</p>
+    <span class="card__source">${this.source}</span>
+  </div>
+</div>`;
+  }
+
   render() {
     return `<div class="card" id="${this.id}">
     <div class="card__image">
