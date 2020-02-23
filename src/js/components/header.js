@@ -8,7 +8,9 @@ export default class Header {
   async nameSet(name) {
     this.authorisationLink.textContent = name;
     this.logoutIcon.style.display = 'block';
-    this.savedArticlesLink.classList.remove('menu__column-link_hidden', true);
+    if (this.savedArticlesLink.classList.contains('menu__column-link_hidden')) {
+      this.savedArticlesLink.classList.remove('menu__column-link_hidden', true);
+    }
   }
 
   async nameRemove(name) {

@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable prefer-arrow-callback */
 /* eslint-disable quotes */
 const preloader = document.querySelector('.preloader__wrapper_search');

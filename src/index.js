@@ -18,6 +18,7 @@ const searchButton = document.querySelector('.header-search__button');
 const authorisationLink = document.querySelector('.menu__link-auth');
 const searchForm = document.forms.search;
 const savedArticlesLink = document.getElementById('stored-articles');
+// const savedArticlesLink = document.querySelector('.menu__item_stored-articles');
 const logoutIcon = document.querySelector('.menu__logout-icon');
 const mobileMenuIcon = document.querySelector('.menu__mobile');
 const popupRender = new PopupRender(container);
@@ -98,27 +99,38 @@ function formsCall(e) {
 
 
 // Сохранение у удаление статьи в избранных
-document.addEventListener('click', (e) => {
-  const link = e.target.closest('.card').querySelector('.card__link').getAttribute('href');
-  if (e.target.classList.contains('card__bookmark_marked')) {
-    e.target.classList.remove('card__bookmark_marked');
-    const savedArticles = JSON.parse(window.localStorage.getItem('isLiked')).data;
-    for (let i = 0; i < savedArticles.length; i += 1) {
-      if (savedArticles[i].link === link) {
-        const id = savedArticles[i]._id;
-        console.log(id);
-        api.deleteArticle(id);
-        break;
+function likeButton() {
+  document.addEventListener('click', (e) => {
+    if (e.target.classList.contains('card__bookmark_marked')) {
+      const link = e.target.closest('.card').querySelector('.card__link').getAttribute('href');
+      e.target.classList.remove('card__bookmark_marked');
+      const savedArticles = JSON.parse(window.localStorage.getItem('isLiked'));
+      for (let i = 0; i < savedArticles.length; i += 1) {
+        if (savedArticles[i].link === link) {
+          const id = savedArticles[i]._id;
+          api.deleteArticle(id);
+          api.checkLiked();
+          break;
+        }
       }
+    } else if (e.target.classList.contains('card__bookmark_like') && !e.target.classList.contains('card__bookmark_marked')) {
+      const link = e.target.closest('.card').querySelector('.card__link').getAttribute('href');
+      const arr = JSON.parse(window.localStorage.getItem('searchResults'));
+      const res = arr.find((card) => card.link === link);
+      e.target.classList.add('card__bookmark_marked');
+      api.saveArticle(res);
+      api.checkLiked();
     }
-  } else if (e.target.classList.contains('card__bookmark_like') && !e.target.classList.contains('card__bookmark_marked')) {
-    const arr = JSON.parse(window.localStorage.getItem('searchResults'));
-    const res = arr.find((card) => card.link === link);
-    e.target.classList.add('card__bookmark_marked');
-    api.saveArticle(res);
-    api.getAllArticles();
+  });
+}
+
+function loginStatus() {
+  try {
+    return JSON.parse(window.localStorage.getItem('isLogedIn'));
+  } catch (err) {
+    throw new Error(err.message);
   }
-});
+}
 
 
 // Отправка заброса к серверу NEWS API и отрисовка карточек
@@ -128,7 +140,9 @@ function print(e) {
   const apiNewsCallback = new CardRender(resultsContiner);
   apiNewsCallback.clearContainer();
   const search = new ApiNews(parm.parm.apiUrl, apiNewsCallback);
-  api.getAllArticles();
+  if (loginStatus() === true) {
+    api.getAllArticles();
+  }
   search.getNews(req);
   searchForm.reset();
   searchButton.setAttribute('disabled', true);
@@ -166,4 +180,7 @@ mobileMenuIcon.addEventListener('click', () => {
 
 });
 
-api.getUser();
+if (loginStatus() === true) {
+  likeButton();
+  api.getUser();
+}
