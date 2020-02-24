@@ -8,7 +8,6 @@ const webpack = require('webpack');
 module.exports = {
   entry: {
     main: './src/index.js',
-    about: './src/pages/about/index.js',
     news: './src/pages/news/index.js',
   },
   output: {
@@ -100,12 +99,6 @@ module.exports = {
       hash: true,
       template: './src/pages/news/index.html',
       filename: 'news/index.html',
-    }),
-    new HtmlWebpackPlugin({
-      inject: false,
-      hash: true,
-      template: './src/pages/about/index.html',
-      filename: 'about/index.html',
     }),
 
     new WebpackMd5Hash(),

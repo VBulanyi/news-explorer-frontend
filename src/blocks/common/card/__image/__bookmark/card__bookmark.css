@@ -1,4 +1,5 @@
 @import url(./__trash/card__bookmark_trash.css);
+
 .card__bookmark {
 position: absolute;
 top: 24px;
@@ -33,8 +34,7 @@ background-position: 50%;
   background-position: 50%;
 }
 
-
-.card__bookmark:hover ~ .card__bookmark-notification_loged-in {
+.card__bookmark_like:hover ~ .card__bookmark-notification_loged-in {
   opacity: 1;
   transition: 0.3s;
   z-index: 3;

@@ -5,25 +5,31 @@
 @import url(./__logo/menu__logo.css);
 @import url(./__logout-icon/menu__logout-icon.css);
 @import url(./__mobile/menu__mobile.css);
+@import url(./__link-auth-container/menu__link-auth-container.css);
+@import url(./__mobile-content/menu__mobile-content.css);
 
 .menu {
   display: flex;
   justify-content: space-between;
-  /* padding: 0 104px; */
   border-bottom: 1px solid #e5e5e5;
   min-height: 80px;
 }
 
 @media screen and (max-width: 1023px) {
   .menu {
-    /* padding-left: 40px; */
     min-height: 66px;
     }
   }
 
 @media screen and (max-width: 767px) {
   .menu {
-    /* padding-left: 16px; */
     min-height: 56px;
     }
   }
+
+
+  @media screen and (max-width: 375px) {
+    .menu {
+      background-color: black;
+      }
+    }

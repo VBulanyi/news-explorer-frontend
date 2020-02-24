@@ -1,5 +1,5 @@
 .preloader__wrapper {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   -webkit-box-align: start;
@@ -8,7 +8,6 @@
   }
 
 .preloader__wrapper_search {
-  display: none;
   margin-top: 80px;
 }
 
