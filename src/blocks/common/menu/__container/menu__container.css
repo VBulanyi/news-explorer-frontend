@@ -1,0 +1,9 @@
+
+  @media screen and (max-width: 415px) {
+    .menu__container {
+      height: 56px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      }
+    }

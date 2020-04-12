@@ -8,11 +8,9 @@ import Header from '../../js/components/header';
 
 const savedArticlesLink = document.querySelector('.menu__item_stored-articles');
 
-// const savedArticlesLink = document.getElementById('stored-articles');
 const logoutIcon = document.querySelector('.menu__logout-icon');
 const authorisationLink = document.querySelector('.menu__link-auth');
 const container = document.querySelector('.results__continer');
-
 
 const headerCallback = new Header(savedArticlesLink, logoutIcon, authorisationLink);
 const callback = new CardRender(container);

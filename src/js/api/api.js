@@ -229,7 +229,7 @@ export default class Api {
         return res.json();
       })
       .then((res) => {
-        document.getElementById(res._id).remove();
+        document.getElementById(res._id).parentNode.textContent = '';
         return res;
       })
       .then((res) => {
