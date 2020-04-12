@@ -150,6 +150,9 @@ function print(e) {
     api.getAllArticles();
   }
   search.getNews(req);
+  if (loginStatus() === true) {
+    likeButton();
+  }
   searchForm.reset();
   searchButton.setAttribute('disabled', true);
 }
@@ -187,6 +190,6 @@ mobileMenuIcon.addEventListener('click', () => {
 });
 
 if (loginStatus() === true) {
-  likeButton();
+  // likeButton();
   api.getUser();
 }
