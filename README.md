@@ -4,6 +4,8 @@
 
 Учебный проект. Является Front-end частью проекта News Explorer
 #
+Размещён на https://vbulanyi.github.io/news-explorer-frontend/
+#
 Позволяет производить поиск новостей средстави https://newsapi.org/ и сохранять статьи в избранное.
 #
 В процессе разработки использовались HTML5, CSS3, JS

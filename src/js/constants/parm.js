@@ -6,7 +6,7 @@ const parm = {
   getUser: 'https://news2explorer.tk/users/me',
   articles: 'https://news2explorer.tk/article',
   git: 'https://api.github.com/repos/VBulanyi/news-explorer-frontend/commits',
-  apiUrl: 'https://newsapi.org/v2/everything?sortBy=popularity&apiKey=d5db312b866b40439eb2b70875053a9d&language=ru&pageSize=100',
+  apiUrl: 'https://praktikum.tk/news/v2/everything?sortBy=popularity&apiKey=d5db312b866b40439eb2b70875053a9d&language=ru&pageSize=100',
   maxGitCommits: 15,
   apiBackUrl: 'https://api.news2explorer.tk/',
 };
